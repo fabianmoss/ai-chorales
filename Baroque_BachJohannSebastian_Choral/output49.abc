@@ -1,0 +1,23 @@
+X:1
+%%score [ ( 1 2 ) ( 3 4 ) ]
+L:1/8
+Q:1/4=60
+M:4/4
+K:G
+V:1 treble nm="Women"
+V:2 treble 
+V:3 bass nm="Men"
+V:4 bass 
+[V:1]B2|[V:2]G2|[V:3]E2|[V:4]E,2|
+[V:1]B2 e2 ^d2 e2|[V:2]G2 A2 B2 AG|[V:3]E2 A,2 B,2 B,2|[V:4]E,2 C,2 B,,2 F,E,|
+[V:1]f2 f2 !breath!!fermata!e2 e2|[V:2]F2 B2 G2 A2|[V:3]B,2 B,2 B,2 C2|[V:4]^D,^C, D,B,, E,2 A,2|
+[V:1]d2 c2 B2 A2|[V:2]A^G A2 A=G GF|[V:3]D2 ED D2 EB,|[V:4]B,2 E,F, G,2 ^C,^D,|
+[V:1]GA B2 !breath!!fermata!A2|[V:2]FE/F/ G2 F2|[V:3]B,2 E2 ^D2|[V:4]E,2 G,,A,, B,,2|
+[V:1]B2|[V:2]F2|[V:3]B,2|[V:4]^D,2|
+[V:1]G2 c2 B2 A2|[V:2]FE EA AG GF|[V:3]B,2 A,E D2 ED|[V:4]E,2 A,,2 B,,2 ^C,D,|
+[V:1]G2 A2 !breath!!fermata!B2 A2|[V:2]FE D2 D2 D2|[V:3]D^C/B,/ A,2 G,2 A,2|[V:4]E,2 F,2 G,2 F,2|
+[V:1]B^c d2 d2 c2|[V:2]G2 F2 E2 FG|[V:3]G,2 A,B, ^CD E2|[V:4]E,2 F,G, A,2 A,,2|
+[V:1]!breath!!fermata!d2|[V:2]F2|[V:3]D2|[V:4]D,2|
+[V:1]f2 g2 f2|[V:2]B2 B2 BA|[V:3]F2 FE E^D|[V:4]^D,2 E,2 B,,2|
+[V:1]e2 f2 ^d2 e2|[V:2]G2 A2 F2 G2|[V:3]E2 C2 B,2 B,^A,|[V:4]C,2 B,,A,, A,,2 G,,2|
+[V:1]AG F2 !fermata!E2|][V:2]^D E2 D B,2|][V:3]B,2 B,>A, ^G,2|][V:4]F,,E,, B,,2 E,2|]
