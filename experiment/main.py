@@ -1,4 +1,4 @@
-from sweetbean import Block, Experiment
+from sweetbean import Block, Experiment, Generic
 from sweetbean.stimulus import Text, Blank
 from sweetbean.variable import TimelineVariable
 
@@ -6,6 +6,27 @@ from sweetbean.variable import TimelineVariable
 def setup(render: str = None):
     # INTRODUCTION
     # create an introduction
+
+    exp = Experiment()
+
+    audio_trial = Generic(
+        html="""
+        <p>Please listen to the sound and rate it.</p>
+
+        <audio controls autoplay>
+        <source src="stimuli/sound1.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+        </audio>
+        """,
+        responses=[
+            Slider(label="How pleasant was the sound?",
+                   min=0, max=100, start=50)
+        ],
+    )
+
+    exp.add_trial(audio_trial)
+    exp.build("audio_experiment")
+    exit()
 
     welcome = Text(
         text="Welcome to our experiment.<br>You will have to react to the color of a word"
