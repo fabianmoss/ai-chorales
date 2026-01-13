@@ -131,6 +131,43 @@
       // Shuffle
       var shuffled_files = jsPsych.randomization.shuffle(audio_files);
 
+     // Training phase
+      var first_trial = shuffled_files.shift();
+
+      var training_audio = {
+        type: jsPsychAudioKeyboardResponse,
+        stimulus: first_trial.file,
+        choices: ["a", "h"],
+        prompt: `<h2>Test phase</h2>
+        <p>Was this composed by a human (<strong>H</strong>) or AI (<strong>A</strong>)?</p>
+          `,
+        data: {correct: first_trial.label},
+        on_finish: function(data) {
+          data.correct_response = data.response?.toLowerCase() === data.correct;
+        }
+      };
+
+      var training_feedback = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: function() {
+          const last_trial = jsPsych.data.get().last(1).values()[0];
+
+          if (last_trial.correc_response) {
+            return `<h2 style='color:green;'>Correct!</h2>
+              <p>Now you know how this works.</p>
+              <p>Press SPACE to start the experiment!</p>`;
+          } else {
+            return `<h2 style='color:red;'>Unfortunately not correct.</h2>
+              <p>But now you know how this works.</p>
+              <p>Press SPACE to start the experiment!</p>`;
+          };
+          },
+        choices: [" "],
+        post_trial_gap: 500
+        };
+      timeline.push(training_audio);
+      timeline.push(training_feedback);
+
       // --- Audio trials ---
       for (let i = 0; i < shuffled_files.length; i++) {
         let trial_info = shuffled_files[i];
