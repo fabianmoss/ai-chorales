@@ -7,10 +7,39 @@
     <script src="https://unpkg.com/@jspsych/plugin-audio-keyboard-response@2.1.0"></script>
     <link href="https://unpkg.com/jspsych@8.2.2/css/jspsych.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+  <style>
+    body {
+      font-size: 30px;       /* change this to whatever you like */
+      font-family: Arial, sans-serif; /* optional: nicer font */
+    }
+
+    /* Optional: make jsPsych prompts bigger too */
+    .jspsych-content {
+      font-size: 3em;  /* scales with body size */
+    }
+  </style><body>
   <script>
   var jsPsych = initJsPsych();
   var timeline = [];
+
+
+  // List of all audio files with labels
+var audio_files = [];
+
+// Add human files
+// var human_files = ["data/H/file1.wav", "data/H/file2.wav"];
+// human_files.forEach(f => audio_files.push({file: f, label: "H"}));
+
+// Add AI files
+var ai_files = [
+    "data/A/output10-6.wav",
+    "data/A/output14-6.wav",
+    "data/A/output21-1.wav"
+  ];
+ai_files.forEach(f => audio_files.push({file: f, label: "A"}));
+
+  // Shuffle the list so order is random
+  var shuffled_files = jsPsych.randomization.shuffle(audio_files);
 
   var welcome = {
     type: jsPsychHtmlKeyboardResponse,
@@ -21,32 +50,68 @@
   var instructions = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: 
-      `<p>In this experiment, you will hear a number of short 
-      phrases from 4-part chorales with a harpsichord sound.</p>
-<p>If you think that the music was composed by a <strong>human</strong>,
+      `<h2>Welcome to the experiment!</h2>
+      <p>-----------------------------------------------------------</p>
+<p>You will hear a few short chorale phrases</p>
+<p>with a harpsichord sound.</p>
+<p>If you think that the music was composed by a <strong>Human</strong>,
 press <strong>H</strong>.
+<br/>
 <p>If you think that the music was composed by <strong>Artificial Intelligence</strong>, 
 press <strong>A</strong>.
+<br>
     <p>Press any key to begin.</p>`
   };
   timeline.push(instructions);
 
   // Preload audio! 
   // https://www.jspsych.org/latest/plugins/audio-keyboard-response/
+for (let i = 0; i < shuffled_files.length; i++) {
+  let trial_info = shuffled_files[i]; // {file: "data/H/file1.wav", label: "H"}
+  
   var trial = {
     type: jsPsychAudioKeyboardResponse,
-    stimulus: "audio/test.wav",
+    stimulus: trial_info.file,
     choices: ["a", "h"],
-    prompt: "Was this composed by a human (<strong>H</strong>) or by artificial intelligence (<strong>A</strong>)?",
+    prompt: function() {
+      return `<p>Was this composed by a human (<strong>H</strong>) or by artificial intelligence (<strong>A</strong>)?</p>
+              <p style="margin-top:10px; font-weight:bold;">Trial ${i+1} / ${shuffled_files.length}</p>`;
+    },
+    data: { correct: trial_info.label },  // store the correct answer
     response_ends_trial: true
   };
-  console.log(trial);
+  
   timeline.push(trial);
+}
+var results = jsPsych.data.get().filter({trial_type: 'audio-keyboard-response'}).values();
+results.forEach(r => {
+  console.log(`File: ${r.stimulus}, Correct: ${r.correct}, Response: ${r.response}`);
+});
 
+var final_screen = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: function() {
+    // Get all audio trials
+    var trials = jsPsych.data.get().filter({trial_type: 'audio-keyboard-response'});
+    
+    // Count correct responses
+    var correct_trials = trials.filter(function(trial) {
+      // Normalize case to match participant input
+      return trial.response.toLowerCase() === trial.correct.toLowerCase();
+    }).count();
+    
+    var total_trials = trials.count();
+    
+    return `<h2>Thank you for participating!</h2>
+<p>Your score: ${correct_trials} / ${total_trials} (${correct_trials/total_trials*100}%) correct</p>
+            <p>Press any key to finish.</p>`;
+  }
+};
+timeline.push(final_screen);
 
   var bye = {
     type: jsPsychHtmlKeyboardResponse,
-    stimulus: "Thank you for your participation!"
+    stimulus: ""
   };
   timeline.push(bye);
 
