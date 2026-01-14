@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.4.28)  13 JAN 2026 22:39
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.4.28)  14 JAN 2026 11:22
  restricted system commands enabled.
 **poster.tex
 (./poster.tex
@@ -1255,7 +1255,7 @@ File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (./poster.aux <Reading QR code for "http://archives.ismir.net/ismir2019/paper/000055.pdf" at level 4-M from aux file.>
+ (./poster.aux <Reading QR code for "https://fabianmoss.github.io/ai-chorales" at level 3-M from aux file.>
 )
 \openout1 = poster.aux
 
@@ -1354,12 +1354,8 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 \openout5 = poster.bcf
 Package biblatex Info: Trying to load bibliographic data...
-
-
-Package biblatex Warning: File 'poster.bbl' is wrong format version - expected 3.3.
-
 Package biblatex Info: ... file 'poster.bbl' found.
-(./poster.bbl)
+ (./poster.bbl)
 Package biblatex Info: Reference section=0 on input line 61.
 Package biblatex Info: Reference segment=0 on input line 61.
 
@@ -1429,35 +1425,35 @@ LaTeX Font Info:    Calculating math sizes for size <16.8> on input line 61.
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.8> not available
 (Font)              size <17.28> substituted on input line 61.
 
-<figures/alap-phrase.pdf, id=13, 265.99374pt x 40.15pt>
+<figures/alap-phrase.pdf, id=17, 265.99374pt x 40.15pt>
 File: figures/alap-phrase.pdf Graphic file (type pdf)
 <use figures/alap-phrase.pdf>
-Package luatex.def Info: figures/alap-phrase.pdf  used on input line 315.
+Package luatex.def Info: figures/alap-phrase.pdf  used on input line 321.
 (luatex.def)             Requested size: 583.99286pt x 88.16788pt.
 
-Overfull \hbox (4.48146pt too wide) in paragraph at lines 315--315
+Overfull \hbox (4.48146pt too wide) in paragraph at lines 321--321
 [][] [] 
  []
 
-<figures/scale.pdf, id=14, 247.92625pt x 38.1425pt>
+<figures/scale.pdf, id=18, 247.92625pt x 38.1425pt>
 File: figures/scale.pdf Graphic file (type pdf)
 <use figures/scale.pdf>
-Package luatex.def Info: figures/scale.pdf  used on input line 315.
+Package luatex.def Info: figures/scale.pdf  used on input line 321.
 (luatex.def)             Requested size: 583.99286pt x 89.863pt.
-LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 315.
+LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 321.
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <34.83> not available
-(Font)              size <24.88> substituted on input line 315.
+(Font)              size <24.88> substituted on input line 321.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <24.38089> not available
-(Font)              size <24.88> substituted on input line 315.
+(Font)              size <24.88> substituted on input line 321.
 
-Package pgfplots info on input line 315: Using 'lua backend=false' for axis: x coord trafo unsupported.
-<figures/alap-example.pdf, id=15, 711.65875pt x 40.15pt>
+Package pgfplots info on input line 321: Using 'lua backend=false' for axis: x coord trafo unsupported.
+<figures/alap-example.pdf, id=19, 711.65875pt x 40.15pt>
 File: figures/alap-example.pdf Graphic file (type pdf)
 <use figures/alap-example.pdf>
-Package luatex.def Info: figures/alap-example.pdf  used on input line 315.
+Package luatex.def Info: figures/alap-example.pdf  used on input line 321.
 (luatex.def)             Requested size: 2102.36005pt x 118.63564pt.
 (./figures/alap_graph.tex
 LaTeX Font Info:    Calculating math sizes for size <29.04> on input line 1.
@@ -1471,73 +1467,37 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <20.3279> not available
 (Font)              size <20.74> substituted on input line 1.
 
 )
-Underfull \hbox (badness 1983) in paragraph at lines 315--315
+Underfull \hbox (badness 1983) in paragraph at lines 321--321
 \TU/Lato(0)/m/n/34.83 with []\TU/Lato(0)/b/n/34.83 notes as nodes[] \TU/Lato(0)/m/n/34.83 and []\TU/Lato(0)/b/n/34.83 in-ter-vals as
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 315--315
+Underfull \hbox (badness 1472) in paragraph at lines 321--321
 \TU/Lato(0)/m/n/34.83 form an edge-replacement []\TU/Lato(0)/b/n/34.83 graph gram-
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 315--315
+Underfull \hbox (badness 1810) in paragraph at lines 321--321
 \TU/Lato(0)/m/n/34.83 Note elab-o-ra-tion also re-place edges but
  []
 
 
-LaTeX Warning: Citation 'YustGeometryMelodicHarmonic2009' on page 1 undefined on input line 315.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
-[]\TU/Lato(0)/m/n/34.83 Since the graph of a mono-phonic
- []
-
-
-Underfull \hbox (badness 6110) in paragraph at lines 315--315
-\TU/Lato(0)/m/n/34.83 melody is lin-ear, its deriva-tion can be
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
-\TU/Lato(0)/m/n/34.83 vi-su-al-ized by an []\TU/Lato(0)/b/n/34.83 out-er-pla-nar graph[]
- []
-
-
-Overfull \hbox (18.82732pt too wide) in paragraph at lines 315--315
-\TU/Lato(0)/m/n/34.83 [[]],
- []
-
-
-Underfull \hbox (badness 2717) in paragraph at lines 315--315
-\TU/Lato(0)/m/n/34.83 where each poly-gon rep-re-sents an edge
- []
-
-
-Overfull \hbox (23.9891pt too wide) in paragraph at lines 315--315
+Overfull \hbox (23.9891pt too wide) in paragraph at lines 321--321
 [][] 
  []
 
 
-LaTeX Warning: Empty bibliography on input line 315.
 
+<QR code requested for "https://fabianmoss.github.io/ai-chorales" in version 0-M.>
+<Copying the QR code for "https://fabianmoss.github.io/ai-chorales" in version 3-M as previously calculated.>
 
-
-<QR code requested for "http://archives.ismir.net/ismir2019/paper/000055.pdf" in version 0-M.>
-<Copying the QR code for "http://archives.ismir.net/ismir2019/paper/000055.pdf" in version 4-M as previously calculated.>
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
-[][]\TU/Lato(0)/m/n/29.04 The re-search pre-sented on this
+Underfull \hbox (badness 7631) in paragraph at lines 321--321
+[]\TU/Lato(0)/m/n/34.83 Dieses Ex-per-i-ment ist im Rah-men des
  []
 
 
-Underfull \hbox (badness 5741) in paragraph at lines 315--315
-\TU/Lato(0)/m/n/29.04 the Volk-swa-gen Foun-da-tion and
- []
-
-
-Underfull \hbox (badness 6961) in paragraph at lines 315--315
-\TU/Lato(0)/m/n/29.04 Eu-ro-pean Union's Hori-zon 2020 re-search and
+Underfull \hbox (badness 1540) in paragraph at lines 321--321
+\TU/Lato(0)/m/n/34.83 Sem-i-nars ``The-men der Dig-i-talen Musik-
  []
 
 Package epstopdf Info: Source file: <unilogo_Vektor_CMYK.eps>
@@ -1547,19 +1507,16 @@ Package epstopdf Info: Source file: <unilogo_Vektor_CMYK.eps>
 (epstopdf)                    date: 2026-01-13 22:35:48
 (epstopdf)                    size: 24654 bytes
 (epstopdf)             Command: <repstopdf --outfile=unilogo_Vektor_CMYK-eps-converted-to.pdf unilogo_Vektor_CMYK.eps>
-(epstopdf)             \includegraphics on input line 315.
+(epstopdf)             \includegraphics on input line 321.
 Package epstopdf Info: Output file is already uptodate.
-<unilogo_Vektor_CMYK-eps-converted-to.pdf, id=17, 162.6075pt x 71.26625pt>
+<unilogo_Vektor_CMYK-eps-converted-to.pdf, id=23, 162.6075pt x 71.26625pt>
 File: unilogo_Vektor_CMYK-eps-converted-to.pdf Graphic file (type pdf)
 <use unilogo_Vektor_CMYK-eps-converted-to.pdf>
-Package luatex.def Info: unilogo_Vektor_CMYK-eps-converted-to.pdf  used on input line 315.
-(luatex.def)             Requested size: 583.99286pt x 256.01668pt.
+Package luatex.def Info: unilogo_Vektor_CMYK-eps-converted-to.pdf  used on input line 321.
+(luatex.def)             Requested size: 437.99464pt x 191.97552pt.
+[1{/home/fmoss/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1{/home/fmoss/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-] [2
 Missing character: There is no ̄ (U+0304) in font name:Lato-Light:mode=node;script=latn;language=dflt;!
 Missing character: There is no ̄ (U+0304) in font name:Lato-Light:mode=node;script=latn;language=dflt;!
 Missing character: There is no ̄ (U+0304) in font name:Lato-Light:mode=node;script=latn;language=dflt;!
@@ -1570,11 +1527,6 @@ Missing character: There is no ̄ (U+0304) in font name:Lato-Light:mode=node;scr
 Missing character: There is no ̄ (U+0304) in font name:Lato-Light:mode=node;script=latn;language=dflt;+tlig;!
 Missing character: There is no ̄ (U+0304) in font name:Lato-Light:mode=node;script=latn;language=dflt;+tlig;!
 Missing character: There is no ̄ (U+0304) in font name:Lato-Light:mode=node;script=latn;language=dflt;+tlig;!
-Missing character: There is no ̄ (U+0304) in font name:Lato-Light:mode=node;script=latn;language=dflt;!
-Missing character: There is no ̄ (U+0304) in font name:Lato-Light:mode=node;script=latn;language=dflt;!
-Missing character: There is no ̄ (U+0304) in font name:Lato-Light:mode=node;script=latn;language=dflt;!
-Missing character: There is no ̄ (U+0304) in font name:Lato-Light:mode=node;script=latn;language=dflt;!
-Missing character: There is no ̄ (U+0304) in font name:Lato-Light:mode=node;script=latn;language=dflt;!
 <./figures/alap-phrase.pdf><./figures/scale.pdf><./figures/alap-example.pdf><./unilogo_Vektor_CMYK-eps-converted-to.pdf>]
 \tf@nav=\write7
 
@@ -1585,7 +1537,7 @@ Missing character: There is no ̄ (U+0304) in font name:Lato-Light:mode=node;scr
 \tf@snm=\write9
 
 \openout9 = poster.snm
- (./poster.aux <Reading QR code for "http://archives.ismir.net/ismir2019/paper/000055.pdf" at level 4-M from aux file.>
+ (./poster.aux <Reading QR code for "https://fabianmoss.github.io/ai-chorales" at level 3-M from aux file.>
 )
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -1596,35 +1548,27 @@ L3 programming layer <2024-03-14>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 9.95pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `poster.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                poster
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: AEA4B6A8AE45636C75679C2F0DFA4493;93.
 Package logreq Info: Writing requests to 'poster.run.xml'.
 
 \openout1 = poster.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 50298 strings out of 476435
- 382025,2373549 words of node,token memory allocated
- 124081 words of node memory still in use:
-   3066 hlist, 38 vlist, 1131 rule, 221 disc, 92 local_par, 232 math, 3175 glue, 215 kern, 156 penalty, 2685 glyph, 6952 attribute, 87 glue_spec, 6952 attribute_list, 5 write, 3166 pdf_literal, 1 pdf_start_link, 1 pdf_end_link, 1 pdf_action, 230 pdf_colorstack, 4 pdf_setmatrix, 4 pdf_save, 4 pdf_restore nodes
-   avail lists: 1:4,2:314,3:6715,4:532,5:452,6:219,7:12424,8:25,9:10788,10:46,11:442
- 71078 multiletter control sequences out of 65536+600000
- 120 fonts using 8172535 bytes
- 128i,18n,116p,1194b,2815s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/fmoss/.local/share/fonts/Google Fonts/Lato/Lato_Regular.20.ttf></usr/share/fonts/truetype/gfonts/lato/lato-v16-latin-300italic.ttf></home/fmoss/.TinyTeX/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Regular.otf></home/fmoss/.TinyTeX/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Bold.otf></home/fmoss/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/fmoss/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/fmoss/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/fmoss/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on poster.pdf (2 pages, 121537 bytes).
+ 50367 strings out of 476435
+ 477540,2373549 words of node,token memory allocated
+ 119439 words of node memory still in use:
+   2810 hlist, 37 vlist, 882 rule, 224 disc, 90 local_par, 234 math, 3193 glue, 200 kern, 179 penalty, 2747 glyph, 6753 attribute, 88 glue_spec, 6753 attribute_list, 9 write, 3166 pdf_literal, 3 pdf_start_link, 3 pdf_end_link, 2 pdf_dest, 3 pdf_action, 242 pdf_colorstack, 4 pdf_setmatrix, 4 pdf_save, 4 pdf_restore nodes
+   avail lists: 1:2,2:272,3:10145,4:849,5:630,6:302,7:18780,8:39,9:13055,10:23,11:673
+ 71147 multiletter control sequences out of 65536+600000
+ 123 fonts using 8379119 bytes
+ 128i,18n,116p,934b,2815s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/fmoss/.TinyTeX/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></home/fmoss/.local/share/fonts/Google Fonts/Lato/Lato_Light_Italic.20.ttf></home/fmoss/.local/share/fonts/Google Fonts/Lato/Lato_Regular.20.ttf></usr/share/fonts/truetype/gfonts/lato/lato-v16-latin-300italic.ttf></home/fmoss/.TinyTeX/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Regular.otf></home/fmoss/.TinyTeX/texmf-dist/fonts/opentype/impallari/raleway/Raleway-Bold.otf></home/fmoss/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/fmoss/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/fmoss/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/fmoss/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on poster.pdf (1 page, 128450 bytes).
 
-PDF statistics: 107 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
+PDF statistics: 125 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 24 words of extra memory for PDF output out of 10000 (max. 100000000)
 

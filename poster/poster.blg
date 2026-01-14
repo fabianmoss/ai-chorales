@@ -1,15 +1,15 @@
-[0] Config.pm:306> INFO - This is Biber 2.18
-[0] Config.pm:309> INFO - Logfile is 'poster.blg'
-[149] biber:340> INFO - === Do Aug 24, 2023, 08:18:53
-[178] Biber.pm:418> INFO - Reading 'poster.bcf'
-[293] Biber.pm:978> INFO - Found 1 citekeys in bib section 0
-[316] Biber.pm:4401> INFO - Processing section 0
-[334] Biber.pm:4592> INFO - Looking for bibtex file 'references.bib' for section 0
-[338] bibtex.pm:1713> INFO - LaTeX decoding ...
-[349] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
-[419] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[419] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[419] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[419] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
-[421] bbl.pm:654> INFO - Writing 'poster.bbl' with encoding 'UTF-8'
-[423] bbl.pm:757> INFO - Output to poster.bbl
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'poster.blg'
+[105] biber:340> INFO - === Mi Jan 14, 2026, 09:10:31
+[126] Biber.pm:420> INFO - Reading 'poster.bcf'
+[216] Biber.pm:994> INFO - Found 1 citekeys in bib section 0
+[233] Biber.pm:4463> INFO - Processing section 0
+[250] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[252] bibtex.pm:1713> INFO - LaTeX decoding ...
+[264] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[337] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[337] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[338] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[338] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[340] bbl.pm:676> INFO - Writing 'poster.bbl' with encoding 'UTF-8'
+[342] bbl.pm:779> INFO - Output to poster.bbl
