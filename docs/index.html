@@ -36,9 +36,9 @@
       }
     </style>
   </head>
-
   <body>
     <script>
+      // SETUP
       // --- Initialize jsPsych ---
       var timestamp = new Date().toISOString().replace(/[:.]/g, "-");
 
@@ -53,33 +53,6 @@
           );
         }
       });
-
-      var timeline = [];
-
-      // --- Welcome ---
-      timeline.push({
-        type: jsPsychHtmlKeyboardResponse,
-        stimulus: "<h1>The Musical Turing Test</h1><p>Press any key to begin.</p>"
-      });
-
-      // --- Instructions ---
-      timeline.push({
-        type: jsPsychHtmlKeyboardResponse,
-        stimulus: `
-          <h2>Welcome to the experiment!</h2>
-          <p>-----------------------------------------------------------</p>
-          <p>You will hear a few short musical phrases with a harpsichord sound.</p>
-          <p>If you think the music was composed by a <strong>Human</strong>, press <strong>H</strong>.</p>
-          <p>If you think the music was composed by <strong>Artificial Intelligence</strong>, press <strong>A</strong>.</p>
-          <p>First, you can test how the experiment works.</p>
-          <p>Press any key to begin the test.</p>
-        `,
-        post_trial_gap: 1000
-      });
-
-      // Survey information 
-      // age, status (student, dozent), selbsteinschätzung (1--100), 
-      // instrument? chor? (wie lange)
 
       // --- Audio files ---
       var audio_files = [];
@@ -146,6 +119,35 @@
       const training_trials = jsPsych.randomization.shuffle([training_human, training_ai]);
       shuffled_files = shuffled_files.filter(f => f !== training_human && f !== training_ai);
 
+      // EXPERIMENT
+
+      var timeline = [];
+
+      // 1. Welcome Screen
+      timeline.push({
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: "<h1>The Musical Turing Test</h1><p>Press any key to begin.</p>"
+      });
+
+      // 2. Instructions
+      timeline.push({
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: `
+          <h2>Welcome to the experiment!</h2>
+          <p>-----------------------------------------------------------</p>
+          <p>You will hear a few short musical phrases with a harpsichord sound.</p>
+          <p>If you think the music was composed by a <strong>Human</strong>, press <strong>H</strong>.</p>
+          <p>If you think the music was composed by <strong>Artificial Intelligence</strong>, press <strong>A</strong>.</p>
+          <p>First, you can test how the experiment works.</p>
+          <p>Press any key to begin the test.</p>`,
+        post_trial_gap: 1000
+      });
+
+      // 3. Survey information 
+      // age, status (student, dozent), selbsteinschätzung (1--100), 
+      // instrument? chor? (wie lange)
+
+      // 4. Training phase
       var training_feedback = {
         type: jsPsychHtmlKeyboardResponse,
         stimulus: function() {
@@ -160,20 +162,18 @@
               <p>But now you know how this works.</p>
               <p>Press SPACE to continue.</p>`;
           };
-          },
+        },
         choices: [" "],
         post_trial_gap: 500
-        };
+      };
 
-     // Training phase
       training_trials.forEach(trial_info => {
         timeline.push({
           type: jsPsychAudioKeyboardResponse, 
           stimulus: trial_info.file, 
           choices: ["a", "h"],
                 prompt: `<h2>Test phase</h2>
-      <p>Was this composed by a human (<strong>H</strong>) or AI (<strong>A</strong>)?</p>
-        `,
+          <p>Was this composed by a human (<strong>H</strong>) or AI (<strong>A</strong>)?</p>`,
           data: { correct: trial_info.label, training: true },
           on_finish: function(data) {
             data.correct_response = data.response?.toLowerCase() === data.correct;
@@ -183,7 +183,7 @@
         timeline.push(training_feedback);
       });
 
-      // --- Audio trials ---
+      // 5. Audio trials
       for (let i = 0; i < shuffled_files.length; i++) {
         let trial_info = shuffled_files[i];
         timeline.push({
@@ -192,8 +192,7 @@
           choices: ["a","h"],
           prompt: `
             <p>Was this composed by a human (<strong>H</strong>) or AI (<strong>A</strong>)?</p>
-            <p style="margin-top:10px; font-weight:bold;">Trial ${i+1} / ${shuffled_files.length}</p>
-          `,
+            <p style="margin-top:10px; font-weight:bold;">Trial ${i+1} / ${shuffled_files.length}</p>`,
           data: function() {
             return {
               correct: trial_info.label,
@@ -206,7 +205,7 @@
         });
       }
 
-      // --- Final screen ---
+      // 6. Final screen
       var final_screen = {
         type: jsPsychHtmlKeyboardResponse,
         stimulus: function() {
@@ -218,14 +217,11 @@
           const total_trials = trials.length;
           const accuracy = Math.round((correct_trials / total_trials) * 100);
 
-          return `
-              <h2>Thank you for participating!</h2>
+          return `<h2>Thank you for participating!</h2>
             <p>Your score: ${correct_trials} / ${total_trials} (${accuracy}%) correct</p>
-            <p>Press any key to finish the experiment and download the data.</p>
-            `;
-          },
+            <p>Press any key to finish the experiment and download the data.</p>`;
+        },
         on_finish: function() {
-
           // Save CSV including participant_id
           const csv = jsPsych.data.get()
             .filter({trial_type:'audio-keyboard-response'})
@@ -242,7 +238,7 @@
       };
       timeline.push(final_screen);
 
-      // --- Run experiment ---
+      // 7. Run experiment
       jsPsych.run(timeline);
     </script>
   </body>
