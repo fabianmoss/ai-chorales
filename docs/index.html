@@ -189,25 +189,6 @@
         timeline.push(training_feedback);
       });
 
-      // var first_trial = shuffled_files.shift();
-
-      // var training_audio = {
-      //   type: jsPsychAudioKeyboardResponse,
-      //   stimulus: first_trial.file,
-      //   choices: ["a", "h"],
-      //   prompt: `<h2>Test phase</h2>
-      //   <p>Was this composed by a human (<strong>H</strong>) or AI (<strong>A</strong>)?</p>
-      //     `,
-      //   data: {correct: first_trial.label, training: true},
-      //   on_finish: function(data) {
-      //     data.correct_response = data.response?.toLowerCase() === first_trial.label;
-      //     console.log(data.response, first_trial.label);
-      //   }
-      // };
-
-      // timeline.push(training_audio);
-      // timeline.push(training_feedback);
-
       // --- Audio trials ---
       for (let i = 0; i < shuffled_files.length; i++) {
         let trial_info = shuffled_files[i];
