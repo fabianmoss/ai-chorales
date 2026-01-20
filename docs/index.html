@@ -62,14 +62,14 @@
         "data/H/122.6-4.wav",
         "data/H/148.6-6.wav",
         "data/H/153.5-3.wav",
-        "data/H/175.5-5.wav",
-        "data/H/227.11-5.wav",
-        "data/H/244.15-6.wav",
-        "data/H/256-5.wav",
-        "data/H/276-8.wav",
-        "data/H/283-7.wav",
-        "data/H/290-2.wav",
-        "data/H/292-2.wav",
+        // "data/H/175.5-5.wav",
+        // "data/H/227.11-5.wav",
+        // "data/H/244.15-6.wav",
+        // "data/H/256-5.wav",
+        // "data/H/276-8.wav",
+        // "data/H/283-7.wav",
+        // "data/H/290-2.wav",
+        // "data/H/292-2.wav",
         // "data/H/294-4.wav",
         // "data/H/325-5.wav",
         // "data/H/368-7.wav",
@@ -87,14 +87,14 @@
         "data/A/output10-6.wav",
         "data/A/output14-6.wav",
         "data/A/output48-2.wav",
-        "data/A/output16-1.wav",
-        "data/A/output19-1.wav",
-        "data/A/output21-1.wav",
-        "data/A/output26-4.wav",
-        "data/A/output28-2.wav",
-        "data/A/output3-3.wav",
-        "data/A/output31-5.wav",
-        "data/A/output39-6.wav",
+        // "data/A/output16-1.wav",
+        // "data/A/output19-1.wav",
+        // "data/A/output21-1.wav",
+        // "data/A/output26-4.wav",
+        // "data/A/output28-2.wav",
+        // "data/A/output3-3.wav",
+        // "data/A/output31-5.wav",
+        // "data/A/output39-6.wav",
         // "data/A/output58-3.wav",
         // "data/A/output61-3.wav",
         // "data/A/output64-3.wav",
@@ -125,13 +125,14 @@
       var timeline = [];
 
       // 1. Welcome Screen
-      timeline.push({
+      var title = {
         type: jsPsychHtmlKeyboardResponse,
         stimulus: "<h1>Der musikalische Turing-Test</h1><p>Drücke eine beliebige Taste.</p>"
-      });
+      };
+      timeline.push(title);
 
       // 2. Instructions
-      timeline.push({
+      var instructions = {
         type: jsPsychHtmlKeyboardResponse,
         stimulus: `
           <h2>Willkommen bei unserem Experiment!</h2>
@@ -144,7 +145,8 @@
           <p>Drücke die LEERTASTE, um fortzufahren.</p>`,
         // choices = [" "],
         post_trial_gap: 500,
-      });
+      };
+      timeline.push(instructions);
 
       // 3. Survey information 
       // age, status (student, dozent), selbsteinschätzung (1--100), 
@@ -210,131 +212,123 @@
         });
       }
 
-var final_screen = {
-  type: jsPsychHtmlKeyboardResponse,
-  choices: ["d"],
-  stimulus: function() {
+      // 6. Free feedback
+      var free_text_screen = {
+        type: jsPsychSurveyText,
+        questions: [
+          {
+            prompt: `<h2>Bevor wir zum Ergebnis kommen...</h2>
+              <p>Wie fandest du die Aufgabe? Hast du Feedback für uns?</p>`,
+            placeholder: "Deine Antwort…",
+            rows: 5,
+            columns: 80
+          }
+        ],
+        button_label: "Weiter",
+        data: {
+          trial_type: "free_text"
+        },
+      };
+      timeline.push(free_text_screen);
 
-    const trials = jsPsych.data.get()
-      .filter({ trial_type: 'audio-keyboard-response', training: false })
-      .values();
-
-    const total = trials.length;
-
-    // Confusion matrix counts
-    const mm = trials.filter(t => t.correct === "m" && t.response?.toLowerCase() === "m").length;
-    const mx = trials.filter(t => t.correct === "m" && t.response?.toLowerCase() === "x").length;
-    const xm = trials.filter(t => t.correct === "x" && t.response?.toLowerCase() === "m").length;
-    const xx = trials.filter(t => t.correct === "x" && t.response?.toLowerCase() === "x").length;
-
-    const correct = mm + xx;
-    const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
-
-    return `
-      <h2>Vielen Dank für die Teilnahme!</h2>
-
-      <p><strong>Your score:</strong> ${correct} / ${total} (${accuracy}%) correct</p>
-
-      <table style="
-        margin: 20px auto;
-        border-collapse: collapse;
-        font-size: 0.9em;
-        min-width: 420px;
-      ">
-        <tr>
-          <th style="border: 1px solid #999; padding: 8px;"></th>
-          <th style="border: 1px solid #999; padding: 8px;"></th>
-          <th colspan="2" style="border: 1px solid #999; padding: 8px;">
-            Deine Antwort
-          </th>
-        </tr>
-        <tr>
-          <th style="border: 1px solid #999; padding: 8px;"></th>
-          <th style="border: 1px solid #999; padding: 8px;"></th>
-          <th style="border: 1px solid #999; padding: 8px;">🧑‍🦰 Mensch</th>
-          <th style="border: 1px solid #999; padding: 8px;">💻 KI</th>
-        </tr>
-        <tr>
-          <!-- NEW left-side spanning header -->
-          <th rowspan="2" style="
-            border: 1px solid #999;
-            padding: 8px;
-            writing-mode: vertical-rl;
-            transform: rotate(180deg);
-            text-align: center;
-          ">
-            Korrekte Antwort
-          </th>
-
-          <th style="border: 1px solid #999; padding: 8px;">🧑‍🦰 Mensch</th>
-          <td style="border: 1px solid #999; padding: 8px; background:#d4edda;">
-            ${mm}
-          </td>
-          <td style="border: 1px solid #999; padding: 8px; background:#f8d7da;">
-            ${mx}
-          </td>
-        </tr>
-        <tr>
-          <th style="border: 1px solid #999; padding: 8px;">💻 KI</th>
-          <td style="border: 1px solid #999; padding: 8px; background:#f8d7da;">
-            ${xm}
-          </td>
-          <td style="border: 1px solid #999; padding: 8px; background:#d4edda;">
-            ${xx}
-          </td>
-        </tr>
-      </table>
-    `;
-  },
-
-  on_finish: function() {
-    const csv = jsPsych.data.get()
-      .filter({ trial_type: 'audio-keyboard-response' })
-      .csv();
-
-    const blob = new Blob([csv], { type: "text/csv" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = `results_${timestamp}.csv`;
-    a.click();
-    URL.revokeObjectURL(url);
-  }
-};
       // 6. Final screen
-      // var final_screen = {
-      //   type: jsPsychHtmlKeyboardResponse,
-      //   stimulus: function() {
-      //     const trials = jsPsych.data.get()
-      //       .filter({trial_type:'audio-keyboard-response', training:false})
-      //       .values();
-      //
-      //     const correct_trials = trials.filter(t => t.response?.toLowerCase() === t.correct?.toLowerCase()).length;
-      //     const total_trials = trials.length;
-      //     const accuracy = Math.round((correct_trials / total_trials) * 100);
-      //
-      //     return `<h2>Vielen Dank für die Teilnahme!</h2>
-      //       <p>Deine Trefferquote betrug <strong>${correct_trials} / ${total_trials} (${accuracy}%)</strong></p>
-      //       <p>Press any key to finish the experiment and download the data.</p>`;
-      //   },
-      //   on_finish: function() {
-      //     // Save CSV including participant_id
-      //     const csv = jsPsych.data.get()
-      //       .filter({trial_type:'audio-keyboard-response'})
-      //       .csv();
-      //
-      //     const blob = new Blob([csv], {type:"text/csv"});
-      //     const url = URL.createObjectURL(blob);
-      //     const a = document.createElement("a");
-      //     a.href = url;
-      //     a.download = `results_${timestamp}.csv`
-      //     a.click();
-      //     URL.revokeObjectURL(url);
-      //   }
-      // };
-      timeline.push(final_screen);
+      var final_screen = {
+        type: jsPsychHtmlKeyboardResponse,
+        choices: ["§"],
+        stimulus: function() {
 
-      // 7. Run experiment
+          const trials = jsPsych.data.get()
+            .filter({ trial_type: 'audio-keyboard-response', training: false })
+            .values();
+
+          const total = trials.length;
+
+          // Confusion matrix counts
+          const mm = trials.filter(t => t.correct === "m" && t.response?.toLowerCase() === "m").length;
+          const mx = trials.filter(t => t.correct === "m" && t.response?.toLowerCase() === "x").length;
+          const xm = trials.filter(t => t.correct === "x" && t.response?.toLowerCase() === "m").length;
+          const xx = trials.filter(t => t.correct === "x" && t.response?.toLowerCase() === "x").length;
+
+          const correct = mm + xx;
+          const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
+
+          return `
+            <h2>Vielen Dank für die Teilnahme!</h2>
+
+            <p><strong>Deine Trefferquote:</strong> ${correct} / ${total} (${accuracy}%)</p>
+
+            <table style="
+              margin: 20px auto;
+              border-collapse: collapse;
+              font-size: 0.9em;
+              min-width: 420px;
+            ">
+              <tr>
+                <th style="border: 1px solid #999; padding: 10px;"></th>
+                <th style="border: 1px solid #999; padding: 10px;"></th>
+                <th colspan="2" style="border: 1px solid #999; padding: 10px;">
+                  Deine Antwort
+                </th>
+              </tr>
+              <tr>
+                <th style="border: 1px solid #999; padding: 10px;"></th>
+                <th style="border: 1px solid #999; padding: 10px;"></th>
+                <th style="border: 1px solid #999; padding: 10px;">🧑‍🦰 Mensch</th>
+                <th style="border: 1px solid #999; padding: 10px;">💻 KI</th>
+              </tr>
+              <tr>
+                <!-- NEW left-side spanning header -->
+                <th rowspan="2" style="
+                  border: 1px solid #999;
+                  padding: 10px;
+                  writing-mode: vertical-rl;
+                  transform: rotate(180deg);
+                  text-align: center;
+                ">
+                  Korrekte Antwort
+                </th>
+
+                <th style="border: 1px solid #999; padding: 10px;">🧑‍🦰 Mensch</th>
+                <td style="border: 1px solid #999; padding: 10px; background:#d4edda;">
+                  ${mm}
+                </td>
+                <td style="border: 1px solid #999; padding: 10px; background:#f8d7da;">
+                  ${mx}
+                </td>
+              </tr>
+              <tr>
+                <th style="border: 1px solid #999; padding: 10px;">💻 KI</th>
+                <td style="border: 1px solid #999; padding: 10px; background:#f8d7da;">
+                  ${xm}
+                </td>
+                <td style="border: 1px solid #999; padding: 10px; background:#d4edda;">
+                  ${xx}
+                </td>
+              </tr>
+            </table>
+            <p>Bitte sage Bescheid, dass du fertig bist.</p>
+          `;
+        },
+
+        on_finish: function() {
+          const csv = jsPsych.data.get()
+            .filterCustom(trial =>
+              ['audio-keyboard-response', 'survey-text'].includes(trial.trial_type))
+            // .filter({ trial_type: 'audio-keyboard-response' })
+            .csv();
+
+          const blob = new Blob([csv], { type: "text/csv" });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = `results_${timestamp}.csv`;
+          a.click();
+          URL.revokeObjectURL(url);
+        }
+      };
+       timeline.push(final_screen);
+
+      // 7. Setup and run experiment
       jsPsych.run(timeline);
     </script>
   </body>
