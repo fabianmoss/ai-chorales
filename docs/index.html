@@ -8,9 +8,12 @@
     <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.1.0"></script>
     <script src="https://unpkg.com/@jspsych/plugin-audio-keyboard-response@2.1.0"></script>
     <script src="https://unpkg.com/@jspsych/plugin-survey-text@2.1.0"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-survey-multi-choice@2.1.0"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-survey-likert@2.1.0"></script>
+
+    <!-- Styling  -->
     <link href="https://unpkg.com/jspsych@8.2.2/css/jspsych.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-
     <style>
       html, body {
         height: 80%;
@@ -33,7 +36,7 @@
         font-size: 2.5em;
         text-align: center;
         padding: 1em;
-        box-sizing: border-box;
+        <!-- box-sizing: border-box; -->
       }
     </style>
   </head>
@@ -62,14 +65,14 @@
         "data/H/122.6-4.wav",
         "data/H/148.6-6.wav",
         "data/H/153.5-3.wav",
-        // "data/H/175.5-5.wav",
-        // "data/H/227.11-5.wav",
-        // "data/H/244.15-6.wav",
-        // "data/H/256-5.wav",
-        // "data/H/276-8.wav",
-        // "data/H/283-7.wav",
-        // "data/H/290-2.wav",
-        // "data/H/292-2.wav",
+        "data/H/175.5-5.wav",
+        "data/H/227.11-5.wav",
+        "data/H/244.15-6.wav",
+        "data/H/256-5.wav",
+        "data/H/276-8.wav",
+        "data/H/283-7.wav",
+        "data/H/290-2.wav",
+        "data/H/292-2.wav",
         // "data/H/294-4.wav",
         // "data/H/325-5.wav",
         // "data/H/368-7.wav",
@@ -87,14 +90,14 @@
         "data/A/output10-6.wav",
         "data/A/output14-6.wav",
         "data/A/output48-2.wav",
-        // "data/A/output16-1.wav",
-        // "data/A/output19-1.wav",
-        // "data/A/output21-1.wav",
-        // "data/A/output26-4.wav",
-        // "data/A/output28-2.wav",
-        // "data/A/output3-3.wav",
-        // "data/A/output31-5.wav",
-        // "data/A/output39-6.wav",
+        "data/A/output16-1.wav",
+        "data/A/output19-1.wav",
+        "data/A/output21-1.wav",
+        "data/A/output26-4.wav",
+        "data/A/output28-2.wav",
+        "data/A/output3-3.wav",
+        "data/A/output31-5.wav",
+        "data/A/output39-6.wav",
         // "data/A/output58-3.wav",
         // "data/A/output61-3.wav",
         // "data/A/output64-3.wav",
@@ -127,9 +130,56 @@
       // 1. Welcome Screen
       var title = {
         type: jsPsychHtmlKeyboardResponse,
-        stimulus: "<h1>Der musikalische Turing-Test</h1><p>Drücke eine beliebige Taste.</p>"
+        stimulus: `<h1>Der musikalische Turing-Test</h1>
+            <img src="ai-composer.png" style="height:400px">
+            <p>Drücke eine beliebige Taste.</p>`
       };
       timeline.push(title);
+
+      // Participant info 
+      var survey1 = {
+        type: jsPsychSurveyText,
+        questions: [
+          {prompt: "Wie alt bist du?", name: "age"},
+        ],
+        button_label: "Weiter",
+      };
+      timeline.push(survey1);
+
+      var survey2 = {
+        type: jsPsychSurveyLikert,
+        questions: [
+          {
+            prompt: "Wie würdest du deine musikalische Erfahrung einschätzen?",
+            labels: ["sehr unerfahren", "unerfahren", "erfahren", "sehr erfahren"]
+          }
+        ],
+        button_label: "Weiter"
+      };
+      timeline.push(survey2);
+
+      var survey3 = {
+        type: jsPsychSurveyLikert,
+        questions: [
+          {prompt: "Spielst du ein Instrument?", labels: ["ja", "nein"]},
+          {prompt: "Singst du im Chor?", labels: ["ja", "nein"]},
+          {prompt: "Nutzt du KI mehrmals pro Woche?", labels: ["ja", "nein"]},
+        ],
+        button_label: "Weiter"
+      };
+      timeline.push(survey3);
+
+      var survey4 = {
+        type: jsPsychSurveyLikert,
+        questions: [
+          {
+            prompt: "Wie sicher bist du, dass du KI-Musik von echter Musik unterscheiden kannst?",
+            labels: ["sehr unsicher", "unsicher", "sicher", "sehr unsicher"]
+          }
+        ],
+        button_label: "Weiter"
+      };
+      timeline.push(survey4);
 
       // 2. Instructions
       var instructions = {
@@ -230,6 +280,32 @@
         },
       };
       timeline.push(free_text_screen);
+
+
+      var difficulty = {
+        type: jsPsychSurveyLikert,
+        questions: [
+          {
+            prompt: "Wie schwer fandest du das Experiment?",
+            labels: ["sehr einfach", "einfach", "schwer", "sehr schwer"]
+          }
+        ],
+        button_label: "Weiter"
+      };
+      timeline.push(difficulty);
+
+
+      var survey_final = {
+        type: jsPsychSurveyLikert,
+        questions: [
+          {
+            prompt: "Wie sicher bist du, dass du KI-Musik von echter Musik unterscheiden kannst?",
+            labels: ["sehr unsicher", "unsicher", "sicher", "sehr unsicher"]
+          }
+        ],
+        button_label: "Weiter"
+      };
+      timeline.push(survey_final);
 
       // 6. Final screen
       var final_screen = {
