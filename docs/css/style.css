@@ -1,0 +1,50 @@
+html, body {
+  height: 80%;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: #F3EFE8;
+  color: #333333;
+}
+
+.jspsych {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.jspsych-content {
+  font-family: "Lato", sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Results table styles */
+.results-table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  min-width: 420px;
+}
+
+.results-table th,
+.results-table td {
+  border: 1px solid #999;
+  padding: 10px;
+}
+
+.results-table .correct {
+  background: #d4edda;
+}
+
+.results-table .incorrect {
+  background: #f8d7da;
+}
+
+.results-table .vertical-header {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: center;
+}
