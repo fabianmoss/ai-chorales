@@ -45,6 +45,7 @@
       // SETUP
       // --- Initialize jsPsych ---
       var timestamp = new Date().toISOString().replace(/[:.]/g, "-");
+      var participant_id = crypto.randomUUID();
 
       var jsPsych = initJsPsych({
         on_finish: function() {
@@ -57,6 +58,8 @@
           );
         }
       });
+
+      jsPsych.data.addProperties({ participant_id: participant_id });
 
       // --- Audio files ---
       var audio_files = [];
@@ -279,7 +282,8 @@
             placeholder: "Deine Antwort…",
             rows: 5,
             columns: 80,
-            required: true
+            required: true,
+            name: "free_feedback"
           }
         ],
         button_label: "Weiter",
@@ -399,17 +403,60 @@
         },
 
         on_finish: function() {
-          const csv = jsPsych.data.get()
-            .filterCustom(trial =>
-              ['audio-keyboard-response', 'survey-text', 'survey-likert'].includes(trial.trial_type))
-            // .filter({ trial_type: 'audio-keyboard-response' })
-            .csv();
+          // Extract participant-level survey data
+          const allData = jsPsych.data.get().values();
+          const participant_data = { participant_id: participant_id };
+
+          allData.forEach(trial => {
+            if (trial.trial_type === 'survey-text' || trial.trial_type === 'survey-likert') {
+              try {
+                const responses = JSON.parse(trial.response);
+                Object.keys(responses).forEach(key => {
+                  participant_data[key] = responses[key];
+                });
+              } catch (e) {
+                console.warn('Failed to parse survey response:', trial.response);
+              }
+            }
+          });
+
+          // Get audio trials and merge with participant data
+          const audioTrials = allData.filter(t =>
+            t.trial_type === 'audio-keyboard-response'
+          );
+
+          // Build tidy CSV
+          const headers = [
+            'participant_id', 'age', 'musical_experience', 'plays_instrument',
+            'sings_in_choir', 'uses_ai_weekly', 'confidence_before',
+            'confidence_after', 'difficulty', 'free_feedback',
+            'stimulus', 'response', 'correct', 'correct_response', 'rt', 'training'
+          ];
+
+          const escapeCSV = (val) => {
+            if (val === null || val === undefined) return '';
+            const str = String(val);
+            if (str.includes(',') || str.includes('"') || str.includes('\n')) {
+              return '"' + str.replace(/"/g, '""') + '"';
+            }
+            return str;
+          };
+
+          const rows = audioTrials.map(trial => {
+            return headers.map(h => {
+              if (h in participant_data) return escapeCSV(participant_data[h]);
+              if (h in trial) return escapeCSV(trial[h]);
+              return '';
+            }).join(',');
+          });
+
+          const csv = [headers.join(','), ...rows].join('\n');
 
           const blob = new Blob([csv], { type: "text/csv" });
           const url = URL.createObjectURL(blob);
           const a = document.createElement("a");
           a.href = url;
-          a.download = `results_${timestamp}.csv`;
+          a.download = `results_${participant_id}.csv`;
           a.click();
           URL.revokeObjectURL(url);
         }
