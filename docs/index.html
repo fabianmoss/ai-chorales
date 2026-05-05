@@ -64,15 +64,15 @@
       var human_files = [
         "data/H/122.6-4.wav",
         "data/H/148.6-6.wav",
-        "data/H/153.5-3.wav",
-        "data/H/175.5-5.wav",
-        "data/H/227.11-5.wav",
-        "data/H/244.15-6.wav",
-        "data/H/256-5.wav",
-        "data/H/276-8.wav",
-        "data/H/283-7.wav",
-        "data/H/290-2.wav",
-        "data/H/292-2.wav",
+        // "data/H/153.5-3.wav",
+        // "data/H/175.5-5.wav",
+        // "data/H/227.11-5.wav",
+        // "data/H/244.15-6.wav",
+        // "data/H/256-5.wav",
+        // "data/H/276-8.wav",
+        // "data/H/283-7.wav",
+        // "data/H/290-2.wav",
+        // "data/H/292-2.wav",
         // "data/H/294-4.wav",
         // "data/H/325-5.wav",
         // "data/H/368-7.wav",
@@ -89,15 +89,15 @@
       var ai_files = [
         "data/A/output10-6.wav",
         "data/A/output14-6.wav",
-        "data/A/output48-2.wav",
-        "data/A/output16-1.wav",
-        "data/A/output19-1.wav",
-        "data/A/output21-1.wav",
-        "data/A/output26-4.wav",
-        "data/A/output28-2.wav",
-        "data/A/output3-3.wav",
-        "data/A/output31-5.wav",
-        "data/A/output39-6.wav",
+        // "data/A/output48-2.wav",
+        // "data/A/output16-1.wav",
+        // "data/A/output19-1.wav",
+        // "data/A/output21-1.wav",
+        // "data/A/output26-4.wav",
+        // "data/A/output28-2.wav",
+        // "data/A/output3-3.wav",
+        // "data/A/output31-5.wav",
+        // "data/A/output39-6.wav",
         // "data/A/output58-3.wav",
         // "data/A/output61-3.wav",
         // "data/A/output64-3.wav",
@@ -140,7 +140,7 @@
       var survey1 = {
         type: jsPsychSurveyText,
         questions: [
-          {prompt: "Wie alt bist du?", name: "age"},
+          {prompt: "Wie alt bist du?", name: "age", required: true},
         ],
         button_label: "Weiter",
       };
@@ -151,7 +151,9 @@
         questions: [
           {
             prompt: "Wie würdest du deine musikalische Erfahrung einschätzen?",
-            labels: ["sehr unerfahren", "unerfahren", "erfahren", "sehr erfahren"]
+            labels: ["sehr unerfahren", "unerfahren", "erfahren", "sehr erfahren"],
+            name: "musical_experience",
+            required: true
           }
         ],
         button_label: "Weiter"
@@ -161,9 +163,9 @@
       var survey3 = {
         type: jsPsychSurveyLikert,
         questions: [
-          {prompt: "Spielst du ein Instrument?", labels: ["ja", "nein"]},
-          {prompt: "Singst du im Chor?", labels: ["ja", "nein"]},
-          {prompt: "Nutzt du KI mehrmals pro Woche?", labels: ["ja", "nein"]},
+          {prompt: "Spielst du ein Instrument?", labels: ["ja", "nein"], name: "plays_instrument", required: true},
+          {prompt: "Singst du im Chor?", labels: ["ja", "nein"], name: "sings_in_choir", required: true},
+          {prompt: "Nutzt du KI mehrmals pro Woche?", labels: ["ja", "nein"], name: "uses_ai_weekly", required: true},
         ],
         button_label: "Weiter"
       };
@@ -174,7 +176,9 @@
         questions: [
           {
             prompt: "Wie sicher bist du, dass du KI-Musik von echter Musik unterscheiden kannst?",
-            labels: ["sehr unsicher", "unsicher", "sicher", "sehr unsicher"]
+            labels: ["sehr unsicher", "unsicher", "sicher", "sehr unsicher"],
+            name: "confidence_before",
+            required: true
           }
         ],
         button_label: "Weiter"
@@ -257,6 +261,9 @@
               training: false
             };
           },
+          on_finish: function(data) {
+            data.correct_response = data.response?.toLowerCase() === data.correct;
+          },
           response_ends_trial: true,
           post_trial_gap: 500,
         });
@@ -271,7 +278,8 @@
               <p>Wie fandest du die Aufgabe? Hast du Feedback für uns?</p>`,
             placeholder: "Deine Antwort…",
             rows: 5,
-            columns: 80
+            columns: 80,
+            required: true
           }
         ],
         button_label: "Weiter",
@@ -287,7 +295,9 @@
         questions: [
           {
             prompt: "Wie schwer fandest du das Experiment?",
-            labels: ["sehr einfach", "einfach", "schwer", "sehr schwer"]
+            labels: ["sehr einfach", "einfach", "schwer", "sehr schwer"],
+            name: "difficulty",
+            required: true
           }
         ],
         button_label: "Weiter"
@@ -300,7 +310,9 @@
         questions: [
           {
             prompt: "Wie sicher bist du, dass du KI-Musik von echter Musik unterscheiden kannst?",
-            labels: ["sehr unsicher", "unsicher", "sicher", "sehr sicher"]
+            labels: ["sehr unsicher", "unsicher", "sicher", "sehr sicher"],
+            name: "confidence_after",
+            required: true
           }
         ],
         button_label: "Weiter"
@@ -389,7 +401,7 @@
         on_finish: function() {
           const csv = jsPsych.data.get()
             .filterCustom(trial =>
-              ['audio-keyboard-response', 'survey-text'].includes(trial.trial_type))
+              ['audio-keyboard-response', 'survey-text', 'survey-likert'].includes(trial.trial_type))
             // .filter({ trial_type: 'audio-keyboard-response' })
             .csv();
 
