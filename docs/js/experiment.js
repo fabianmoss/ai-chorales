@@ -7,13 +7,14 @@ var participant_id = crypto.randomUUID();
 
 var jsPsych = initJsPsych({
   on_finish: function() {
-    // debug output
-    console.table(
-      jsPsych.data.get()
-        .filter({ trial_type: 'audio-keyboard-response' })
-        .select(['stimulus', 'response', 'correct', 'participant_id', 'rt'])
-        .values()
-    );
+    // 1. Hol dir die Daten
+    var relevantData = jsPsych.data.get()
+      .filter({ trial_type: 'audio-keyboard-response' })
+      .values();
+
+    // 2. Zeige sie sauber an
+    console.log("Experiment beendet. Hier sind die Ergebnisse:");
+    console.table(relevantData, ['stimulus', 'response', 'correct', 'rt']);
   }
 });
 
