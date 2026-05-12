@@ -19,6 +19,7 @@ html, body {
   font-size: 3vw;
   text-align: center;
   padding: 1em;
+  line-height: 1.5;
 }
 
 /* Results table styles */
