@@ -1,5 +1,5 @@
 // Configuration: Audio files and survey labels
-
+const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyL7sK7yRD_Lpt5YTvDpHUMTX3IH7MwVnvlyZW56JQbr4TZr6DiqOrsRgQasU2R29rp/exec";
 // Likert labels - single source of truth for both survey display and CSV conversion
 const likertLabels = {
   musical_experience: ["sehr unerfahren", "unerfahren", "erfahren", "sehr erfahren"],

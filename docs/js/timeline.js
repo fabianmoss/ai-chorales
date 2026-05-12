@@ -170,23 +170,23 @@ function buildFeedbackSurveys() {
 function buildFinalScreen() {
   return {
     type: jsPsychHtmlKeyboardResponse,
-    choices: ["§"],
+    choices: "NO_KEYS",
     stimulus: function() {
       const trials = jsPsych.data.get()
         .filter({ trial_type: 'audio-keyboard-response', training: false })
         .values();
       return getResultsHtml(trials);
     },
-    on_finish: function() {
+    on_load: function() {
       const allData = jsPsych.data.get().values();
       const participant_data = extractParticipantData(allData);
-
       const audioTrials = allData.filter(t =>
         t.trial_type === 'audio-keyboard-response'
       );
 
       const csv = generateCSV(audioTrials, participant_data);
-      downloadCSV(csv, `results_${participant_id}.csv`);
+      // downloadCSV(csv, `results_${participant_id}.csv`);
+      sendToGoogleAppsScript(csv, `results_${participant_id}.csv`);
     }
   };
 }

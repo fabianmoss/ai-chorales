@@ -152,16 +152,34 @@ function generateCSV(audioTrials, participant_data) {
   return [csvHeaders.join(','), ...rows].join('\n');
 }
 
-// Download CSV file
-function downloadCSV(csv, filename) {
-  const blob = new Blob([csv], { type: "text/csv" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = filename;
-  a.click();
-  URL.revokeObjectURL(url);
+// SEND TO APPS script
+
+async function sendToGoogleAppsScript(csv, filename) {
+  try {
+    const response = await fetch(GOOGLE_APPS_SCRIPT_URL, {
+      method: "POST",
+      mode: "no-cors",
+      headers: {
+        "Content-Type": "text/csv",
+      },
+      body: csv
+    });
+    console.log("Data sent successfully");
+  } catch (error) {
+    console.error("Failed to send data: ", error)
+  }
 }
+
+// Download CSV file
+// function downloadCSV(csv, filename) {
+//   const blob = new Blob([csv], { type: "text/csv" });
+//   const url = URL.createObjectURL(blob);
+//   const a = document.createElement("a");
+//   a.href = url;
+//   a.download = filename;
+//   a.click();
+//   URL.revokeObjectURL(url);
+// }
 
 // Create training feedback HTML
 function getTrainingFeedbackHtml(isCorrect) {
