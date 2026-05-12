@@ -227,9 +227,7 @@ function getResultsHtml(trials) {
         <td class="incorrect">${matrix.xm}</td>
         <td class="correct">${matrix.xx}</td>
       </tr>
-    </table>
-    <p>Bitte sage Bescheid, dass du fertig bist.</p>
-  `;
+    </table>`;
 }
 
 // Create likert survey helper
