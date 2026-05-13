@@ -56,7 +56,8 @@ function buildInstructions() {
     type: jsPsychHtmlButtonResponse,  
     choices: ['Weiter'],  
     stimulus: `  
-      <h2>Willkommen bei unserem Experiment!</h2>  
+      <h2>Willkommen bei unserem Experiment!</h2>
+      <p>Für Handynutzer*innen: Stummschaltung am Gehäuse aufheben, sonst erklingt nichts!</p>  
       <p>Du wirst kurze Musikschnipsel mit Cembaloklang hören.</p>  
       <p>Deine Aufgabe: Entscheide, wer es komponiert hat.</p>  
       <p>Klicke auf <strong>Mensch</strong>, wenn du glaubst, es ist ein echtes Werk.<br>
