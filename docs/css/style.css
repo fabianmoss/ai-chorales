@@ -49,3 +49,10 @@ html, body {
   transform: rotate(180deg);
   text-align: center;
 }
+/* Make buttons large and easy to hit on mobile */
+.jspsych-btn {
+  padding: 15px 30px !important;
+  margin: 10px !important;
+  font-size: 1.2rem !important;
+  touch-action: manipulation; /* Prevents zooming on double tap */
+}

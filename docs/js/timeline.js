@@ -7,7 +7,7 @@ function buildWelcomeScreen() {
     choices: ['Start'],  
     stimulus: `<h1>Der musikalische Turing-Test</h1>  
         <img src="ai-composer.png" style="height:400px">  
-        <p>Drücke Start oder eine beliebige Taste.</p>`  
+        <p>Klicke auf <strong>Start</strong>, um zu beginnen.</p>`  
   };  
 }
 
@@ -57,12 +57,13 @@ function buildInstructions() {
     choices: ['Weiter'],  
     stimulus: `  
       <h2>Willkommen bei unserem Experiment!</h2>  
-      <p>Du wird ein paar kurze Musikschnipsel mit Cembaloklang hören.</p>  
-      <p>Wenn du glaubst, dass es von einem <strong>Menschen</strong> komponiert wurde, drücke <strong>M</strong>.</p>  
-      <p>Wenn du glaubst, dass es von einer <strong>Künstlichen Intelligenz</strong> generiert wurde, drücke <strong>X</strong>.</p>  
-      <p>Antworte möglichst spontan, ohne viel nachzudenken.</p>  
+      <p>Du wirst kurze Musikschnipsel mit Cembaloklang hören.</p>  
+      <p>Deine Aufgabe: Entscheide, wer es komponiert hat.</p>  
+      <p>Klicke auf <strong>Mensch</strong>, wenn du glaubst, es ist ein echtes Werk.<br>
+      Klicke auf <strong>KI</strong>, wenn du glaubst, es wurde generiert.</p>  
+      <p>Antworte möglichst spontan.</p>  
       <hr>  
-      <p>Zuerst kommt ein kurzer Test, um das Experiment kennenzulernen.</p>`,  
+      <p>Zuerst kommt ein kurzer Test zum Kennenlernen.</p>`,  
     post_trial_gap: 500  
   };  
 }
@@ -72,27 +73,29 @@ function buildTrainingPhase(training_trials) {
   const timeline = [];
 
   const training_feedback = {
-    type: jsPsychHtmlKeyboardResponse,
+    type: jsPsychHtmlButtonResponse, // Geändert von Keyboard zu Button
+    choices: ['Weiter'],
     stimulus: function() {
       const last_trial = jsPsych.data.get().last(1).values()[0];
-      return getTrainingFeedbackHtml(last_trial.correct_response);
+      // Wir prüfen hier auf 'm'/'x', da wir die Antwort in on_finish mappen (siehe unten)
+      const isCorrect = last_trial.response === last_trial.correct;
+      return getTrainingFeedbackHtml(isCorrect);
     },
-    choices: [" "],
     post_trial_gap: 500
   };
 
   training_trials.forEach(trial_info => {
     timeline.push({
-      type: jsPsychAudioKeyboardResponse,
+      type: jsPsychAudioButtonResponse, // Geändert zu Button
       stimulus: trial_info.file,
-      choices: ["x", "m"],
+      choices: ["Mensch", "KI"], // Button 0 = Mensch, Button 1 = KI
       prompt: `<h2>Testphase</h2>
-      <p>Wurde dies von einem Menschen (<strong>M</strong>) oder einer KI (<strong>X</strong>) komponiert?</p>
-        <p>🧑‍🦰 ❔ 💻</p>`,
+               <p>Wer hat das komponiert?</p>`,
       data: { correct: trial_info.label, training: true, timestamp: timestamp },
       on_finish: function(data) {
+        // WICHTIG: Button-Index (0, 1) in 'm' oder 'x' umwandeln für deine Statistik
+        data.response = (data.response === 0) ? 'm' : 'x';
         normalizeResponse(data);
-        console.log(data.response, trial_info.label);
       }
     });
     timeline.push(training_feedback);
@@ -108,11 +111,11 @@ function buildAudioTrials(shuffled_files) {
   for (let i = 0; i < shuffled_files.length; i++) {
     let trial_info = shuffled_files[i];
     timeline.push({
-      type: jsPsychAudioKeyboardResponse,
+      type: jsPsychAudioButtonResponse, // Geändert zu Button
       stimulus: trial_info.file,
-      choices: ["x","m"],
+      choices: ["Mensch", "KI"], 
       prompt: `
-      <p>Wurde dies von einem Menschen (<strong>M</strong>) oder einer KI (<strong>X</strong>) komponiert?</p>
+        <p>Wer hat das komponiert?</p>
         <p>🧑‍🦰 ❔ 💻</p>
         <p style="margin-top:10px; font-weight:bold;">Versuch ${i+1} von ${shuffled_files.length}</p>`,
       data: function() {
@@ -123,16 +126,16 @@ function buildAudioTrials(shuffled_files) {
         };
       },
       on_finish: function(data) {
+        // Index wieder zu Label mappen
+        data.response = (data.response === 0) ? 'm' : 'x';
         normalizeResponse(data);
       },
-      response_ends_trial: true,
       post_trial_gap: 500
     });
   }
 
   return timeline;
 }
-
 // Build feedback surveys
 function buildFeedbackSurveys() {
   const surveys = [];
@@ -174,7 +177,7 @@ function buildFinalScreen() {
     choices: "NO_KEYS",
     stimulus: function() {
       const trials = jsPsych.data.get()
-        .filter({ trial_type: 'audio-keyboard-response', training: false })
+        .filter({ trial_type: 'audio-button-response', training: false })
         .values();
       return getResultsHtml(trials);
     },
@@ -182,7 +185,7 @@ function buildFinalScreen() {
       const allData = jsPsych.data.get().values();
       const participant_data = extractParticipantData(allData);
       const audioTrials = allData.filter(t =>
-        t.trial_type === 'audio-keyboard-response'
+        t.trial_type === 'audio-button-response'
       );
 
       const csv = generateCSV(audioTrials, participant_data);

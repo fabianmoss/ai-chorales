@@ -9,7 +9,7 @@ var jsPsych = initJsPsych({
   on_finish: function() {
     // 1. Hol dir die Daten
     var relevantData = jsPsych.data.get()
-      .filter({ trial_type: 'audio-keyboard-response' })
+      .filter({ trial_type: 'audio-button-response' })
       .values();
 
     // 2. Zeige sie sauber an
