@@ -1,13 +1,14 @@
 // Timeline building functions for the experiment
 
 // Build welcome screen
-function buildWelcomeScreen() {
-  return {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: `<h1>Der musikalische Turing-Test</h1>
-        <img src="ai-composer.png" style="height:400px">
-        <p>Drücke eine beliebige Taste.</p>`
-  };
+function buildWelcomeScreen() {  
+  return {  
+    type: jsPsychHtmlButtonResponse,  
+    choices: ['Start'],  
+    stimulus: `<h1>Der musikalische Turing-Test</h1>  
+        <img src="ai-composer.png" style="height:400px">  
+        <p>Drücke Start oder eine beliebige Taste.</p>`  
+  };  
 }
 
 // Build participant info surveys
@@ -50,20 +51,20 @@ function buildParticipantSurveys() {
 }
 
 // Build instructions screen
-function buildInstructions() {
-  return {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: `
-      <h2>Willkommen bei unserem Experiment!</h2>
-      <p>Du wird ein paar kurze Musikschnipsel mit Cembaloklang hören.</p>
-      <p>Wenn du glaubst, dass es von einem <strong>Menschen</strong> komponiert wurde, drücke <strong>M</strong>.</p>
-      <p>Wenn du glaubst, dass es von einer <strong>Künstlichen Intelligenz</strong> generiert wurde, drücke <strong>X</strong>.</p>
-      <p>Antworte möglichst spontan, ohne viel nachzudenken.</p>
-      <hr>
-      <p>Zuerst kommt ein kurzer Test, um das Experiment kennenzulernen.</p>
-      <p>Drücke die LEERTASTE, um fortzufahren.</p>`,
-    post_trial_gap: 500
-  };
+function buildInstructions() {  
+  return {  
+    type: jsPsychHtmlButtonResponse,  
+    choices: ['Weiter'],  
+    stimulus: `  
+      <h2>Willkommen bei unserem Experiment!</h2>  
+      <p>Du wird ein paar kurze Musikschnipsel mit Cembaloklang hören.</p>  
+      <p>Wenn du glaubst, dass es von einem <strong>Menschen</strong> komponiert wurde, drücke <strong>M</strong>.</p>  
+      <p>Wenn du glaubst, dass es von einer <strong>Künstlichen Intelligenz</strong> generiert wurde, drücke <strong>X</strong>.</p>  
+      <p>Antworte möglichst spontan, ohne viel nachzudenken.</p>  
+      <hr>  
+      <p>Zuerst kommt ein kurzer Test, um das Experiment kennenzulernen.</p>`,  
+    post_trial_gap: 500  
+  };  
 }
 
 // Build training phase
