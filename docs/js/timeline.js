@@ -94,7 +94,7 @@ function buildTrainingPhase(training_trials) {
                <p>Wer hat das komponiert?</p>`,
       data: { correct: trial_info.label, training: true, timestamp: timestamp },
       on_finish: function(data) {
-        // WICHTIG: Button-Index (0, 1) in 'm' oder 'x' umwandeln für deine Statistik
+        // WICHTIG: Button-Index (0, 1) in 'm' oder 'x' umwandeln für Statistik
         data.response = (data.response === 0) ? 'm' : 'x';
         normalizeResponse(data);
       }
