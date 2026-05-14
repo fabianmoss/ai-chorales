@@ -87,15 +87,43 @@ function buildTrainingPhase(training_trials) {
 
   training_trials.forEach(trial_info => {
     timeline.push({
-      type: jsPsychAudioButtonResponse, // Geändert zu Button
-      stimulus: trial_info.file,
-      choices: ["Mensch", "KI"], // Button 0 = Mensch, Button 1 = KI
-      prompt: `<h2>Testphase</h2>
-               <p>Wer hat das komponiert?</p>`,
-      data: { correct: trial_info.label, training: true, timestamp: timestamp },
+      type: jsPsychHtmlButtonResponse,
+      stimulus: `
+        <h2>Testphase</h2>
+        <div style="margin-bottom: 20px;">
+          <button id="playButton" style="
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px;
+          ">▶ Audio abspielen</button>
+          <audio id="audioElement" style="display: none;">
+            <source src="${trial_info.file}" type="audio/mp3">
+            Dein Browser unterstützt das Audio-Element nicht.
+          </audio>
+        </div>
+        <p>Wer hat das komponiert?</p>
+      `,
+      choices: ["Mensch", "KI"],
+      on_load: function() {
+        const playButton = document.getElementById('playButton');
+        const audioElement = document.getElementById('audioElement');
+        
+        playButton.addEventListener('click', function() {
+          audioElement.play();
+          playButton.style.backgroundColor = '#888';
+          playButton.style.cursor = 'default';
+        });
+      },
+      data: { stimulus: trial_info.file, correct: trial_info.label, training: true, timestamp: timestamp },
       on_finish: function(data) {
         // WICHTIG: Button-Index (0, 1) in 'm' oder 'x' umwandeln für Statistik
         data.response = (data.response === 0) ? 'm' : 'x';
+        data.stimulus = trial_info.file;
         normalizeResponse(data);
       }
     });
@@ -112,15 +140,42 @@ function buildAudioTrials(shuffled_files) {
   for (let i = 0; i < shuffled_files.length; i++) {
     let trial_info = shuffled_files[i];
     timeline.push({
-      type: jsPsychAudioButtonResponse, // Geändert zu Button
-      stimulus: trial_info.file,
-      choices: ["Mensch", "KI"], 
-      prompt: `
+      type: jsPsychHtmlButtonResponse,
+      stimulus: `
+        <div style="margin-bottom: 20px;">
+          <button id="playButton" style="
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px;
+          ">▶ Audio abspielen</button>
+          <audio id="audioElement" style="display: none;">
+            <source src="${trial_info.file}" type="audio/mp3">
+            Dein Browser unterstützt das Audio-Element nicht.
+          </audio>
+        </div>
         <p>Wer hat das komponiert?</p>
         <p>🧑‍🦰 ❔ 💻</p>
-        <p style="margin-top:10px; font-weight:bold;">Versuch ${i+1} von ${shuffled_files.length}</p>`,
+        <p style="margin-top:10px; font-weight:bold;">Versuch ${i+1} von ${shuffled_files.length}</p>
+      `,
+      choices: ["Mensch", "KI"],
+      on_load: function() {
+        const playButton = document.getElementById('playButton');
+        const audioElement = document.getElementById('audioElement');
+        
+        playButton.addEventListener('click', function() {
+          audioElement.play();
+          playButton.style.backgroundColor = '#888';
+          playButton.style.cursor = 'default';
+        });
+      },
       data: function() {
         return {
+          stimulus: trial_info.file,
           correct: trial_info.label,
           timestamp: timestamp,
           training: false
@@ -129,6 +184,7 @@ function buildAudioTrials(shuffled_files) {
       on_finish: function(data) {
         // Index wieder zu Label mappen
         data.response = (data.response === 0) ? 'm' : 'x';
+        data.stimulus = trial_info.file;
         normalizeResponse(data);
       },
       post_trial_gap: 500
@@ -178,7 +234,7 @@ function buildFinalScreen() {
     choices: "NO_KEYS",
     stimulus: function() {
       const trials = jsPsych.data.get()
-        .filter({ trial_type: 'audio-button-response', training: false })
+        .filter({ trial_type: 'html-button-response', training: false })
         .values();
       return getResultsHtml(trials);
     },
@@ -186,7 +242,7 @@ function buildFinalScreen() {
       const allData = jsPsych.data.get().values();
       const participant_data = extractParticipantData(allData);
       const audioTrials = allData.filter(t =>
-        t.trial_type === 'audio-button-response'
+        t.trial_type === 'html-button-response' && t.training === false
       );
 
       const csv = generateCSV(audioTrials, participant_data);
