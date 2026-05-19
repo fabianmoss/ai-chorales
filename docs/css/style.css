@@ -16,9 +16,10 @@ html, body {
 
 .jspsych-content {
   font-family: "Lato", sans-serif;
-  font-size: 2.5em;
+  font-size: 3vw;
   text-align: center;
   padding: 1em;
+  line-height: 1.5;
 }
 
 /* Results table styles */
@@ -47,4 +48,11 @@ html, body {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   text-align: center;
+}
+/* Make buttons large and easy to hit on mobile */
+.jspsych-btn {
+  padding: 15px 30px !important;
+  margin: 10px !important;
+  font-size: 1.2rem !important;
+  touch-action: manipulation; /* Prevents zooming on double tap */
 }

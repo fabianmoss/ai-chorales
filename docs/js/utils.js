@@ -186,11 +186,11 @@ function getTrainingFeedbackHtml(isCorrect) {
   if (isCorrect) {
     return `<h2 style='color:green;'>Richtig!</h2>
       <p>Jetzt weißt du, wie es funktioniert.</p>
-      <p>Drücke die LEERTASTE, um fortzufahren.</p>`;
+      <p>Drücke auf den Button, um fortzufahren.</p>`;
   } else {
     return `<h2 style='color:red;'>Leider nicht korrekt.</h2>
       <p>Aber jetzt weißt du, wie es funktioniert.</p>
-      <p>Drücke die LEERTASTE, um fortzufahren.</p>`;
+      <p>Drücke auf den Button, um fortzufahren.</p>`;
   }
 }
 
@@ -227,9 +227,7 @@ function getResultsHtml(trials) {
         <td class="incorrect">${matrix.xm}</td>
         <td class="correct">${matrix.xx}</td>
       </tr>
-    </table>
-    <p>Bitte sage Bescheid, dass du fertig bist.</p>
-  `;
+    </table>`;
 }
 
 // Create likert survey helper

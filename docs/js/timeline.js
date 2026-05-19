@@ -1,13 +1,14 @@
 // Timeline building functions for the experiment
 
 // Build welcome screen
-function buildWelcomeScreen() {
-  return {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: `<h1>Der musikalische Turing-Test</h1>
-        <img src="ai-composer.png" style="height:400px">
-        <p>Drücke eine beliebige Taste.</p>`
-  };
+function buildWelcomeScreen() {  
+  return {  
+    type: jsPsychHtmlButtonResponse,  
+    choices: ['Start'],  
+    stimulus: `<h1>Der musikalische Turing-Test</h1>  
+        <img src="ai-composer.png" style="height:400px">  
+        <p>Klicke auf <strong>Start</strong>, um zu beginnen.</p>`  
+  };  
 }
 
 // Build participant info surveys
@@ -50,20 +51,22 @@ function buildParticipantSurveys() {
 }
 
 // Build instructions screen
-function buildInstructions() {
-  return {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: `
+function buildInstructions() {  
+  return {  
+    type: jsPsychHtmlButtonResponse,  
+    choices: ['Weiter'],  
+    stimulus: `  
       <h2>Willkommen bei unserem Experiment!</h2>
-      <p>Du wird ein paar kurze Musikschnipsel mit Cembaloklang hören.</p>
-      <p>Wenn du glaubst, dass es von einem <strong>Menschen</strong> komponiert wurde, drücke <strong>M</strong>.</p>
-      <p>Wenn du glaubst, dass es von einer <strong>Künstlichen Intelligenz</strong> generiert wurde, drücke <strong>X</strong>.</p>
-      <p>Antworte möglichst spontan, ohne viel nachzudenken.</p>
-      <hr>
-      <p>Zuerst kommt ein kurzer Test, um das Experiment kennenzulernen.</p>
-      <p>Drücke die LEERTASTE, um fortzufahren.</p>`,
-    post_trial_gap: 500
-  };
+      <p>Für Handynutzer*innen: Stummschaltung am Gehäuse aufheben, sonst erklingt nichts!</p>  
+      <p>Du wirst kurze Musikschnipsel mit Cembaloklang hören.</p>  
+      <p>Deine Aufgabe: Entscheide, wer es komponiert hat.</p>  
+      <p>Klicke auf <strong>Mensch</strong>, wenn du glaubst, es ist ein echtes Werk.<br>
+      Klicke auf <strong>KI</strong>, wenn du glaubst, es wurde generiert.</p>  
+      <p>Antworte möglichst spontan.</p>  
+      <hr>  
+      <p>Zuerst kommt ein kurzer Test zum Kennenlernen.</p>`,  
+    post_trial_gap: 500  
+  };  
 }
 
 // Build training phase
@@ -71,27 +74,57 @@ function buildTrainingPhase(training_trials) {
   const timeline = [];
 
   const training_feedback = {
-    type: jsPsychHtmlKeyboardResponse,
+    type: jsPsychHtmlButtonResponse, // Geändert von Keyboard zu Button
+    choices: ['Weiter'],
     stimulus: function() {
       const last_trial = jsPsych.data.get().last(1).values()[0];
-      return getTrainingFeedbackHtml(last_trial.correct_response);
+      // Wir prüfen hier auf 'm'/'x', da wir die Antwort in on_finish mappen (siehe unten)
+      const isCorrect = last_trial.response === last_trial.correct;
+      return getTrainingFeedbackHtml(isCorrect);
     },
-    choices: [" "],
     post_trial_gap: 500
   };
 
   training_trials.forEach(trial_info => {
     timeline.push({
-      type: jsPsychAudioKeyboardResponse,
-      stimulus: trial_info.file,
-      choices: ["x", "m"],
-      prompt: `<h2>Testphase</h2>
-      <p>Wurde dies von einem Menschen (<strong>M</strong>) oder einer KI (<strong>X</strong>) komponiert?</p>
-        <p>🧑‍🦰 ❔ 💻</p>`,
-      data: { correct: trial_info.label, training: true, timestamp: timestamp },
+      type: jsPsychHtmlButtonResponse,
+      stimulus: `
+        <h2>Testphase</h2>
+        <div style="margin-bottom: 20px;">
+          <button id="playButton" style="
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px;
+          ">▶ Audio abspielen</button>
+          <audio id="audioElement" style="display: none;">
+            <source src="${trial_info.file}" type="audio/mp3">
+            Dein Browser unterstützt das Audio-Element nicht.
+          </audio>
+        </div>
+        <p>Wer hat das komponiert?</p>
+      `,
+      choices: ["Mensch", "KI"],
+      on_load: function() {
+        const playButton = document.getElementById('playButton');
+        const audioElement = document.getElementById('audioElement');
+        
+        playButton.addEventListener('click', function() {
+          audioElement.play();
+          playButton.style.backgroundColor = '#888';
+          playButton.style.cursor = 'default';
+        });
+      },
+      data: { stimulus: trial_info.file, correct: trial_info.label, training: true, timestamp: timestamp },
       on_finish: function(data) {
+        // WICHTIG: Button-Index (0, 1) in 'm' oder 'x' umwandeln für Statistik
+        data.response = (data.response === 0) ? 'm' : 'x';
+        data.stimulus = trial_info.file;
         normalizeResponse(data);
-        console.log(data.response, trial_info.label);
       }
     });
     timeline.push(training_feedback);
@@ -107,31 +140,59 @@ function buildAudioTrials(shuffled_files) {
   for (let i = 0; i < shuffled_files.length; i++) {
     let trial_info = shuffled_files[i];
     timeline.push({
-      type: jsPsychAudioKeyboardResponse,
-      stimulus: trial_info.file,
-      choices: ["x","m"],
-      prompt: `
-      <p>Wurde dies von einem Menschen (<strong>M</strong>) oder einer KI (<strong>X</strong>) komponiert?</p>
+      type: jsPsychHtmlButtonResponse,
+      stimulus: `
+        <div style="margin-bottom: 20px;">
+          <button id="playButton" style="
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px;
+          ">▶ Audio abspielen</button>
+          <audio id="audioElement" style="display: none;">
+            <source src="${trial_info.file}" type="audio/mp3">
+            Dein Browser unterstützt das Audio-Element nicht.
+          </audio>
+        </div>
+        <p>Wer hat das komponiert?</p>
         <p>🧑‍🦰 ❔ 💻</p>
-        <p style="margin-top:10px; font-weight:bold;">Versuch ${i+1} von ${shuffled_files.length}</p>`,
+        <p style="margin-top:10px; font-weight:bold;">Versuch ${i+1} von ${shuffled_files.length}</p>
+      `,
+      choices: ["Mensch", "KI"],
+      on_load: function() {
+        const playButton = document.getElementById('playButton');
+        const audioElement = document.getElementById('audioElement');
+        
+        playButton.addEventListener('click', function() {
+          audioElement.play();
+          playButton.style.backgroundColor = '#888';
+          playButton.style.cursor = 'default';
+        });
+      },
       data: function() {
         return {
+          stimulus: trial_info.file,
           correct: trial_info.label,
           timestamp: timestamp,
           training: false
         };
       },
       on_finish: function(data) {
+        // Index wieder zu Label mappen
+        data.response = (data.response === 0) ? 'm' : 'x';
+        data.stimulus = trial_info.file;
         normalizeResponse(data);
       },
-      response_ends_trial: true,
       post_trial_gap: 500
     });
   }
 
   return timeline;
 }
-
 // Build feedback surveys
 function buildFeedbackSurveys() {
   const surveys = [];
@@ -173,7 +234,7 @@ function buildFinalScreen() {
     choices: "NO_KEYS",
     stimulus: function() {
       const trials = jsPsych.data.get()
-        .filter({ trial_type: 'audio-keyboard-response', training: false })
+        .filter({ trial_type: 'html-button-response', training: false })
         .values();
       return getResultsHtml(trials);
     },
@@ -181,7 +242,7 @@ function buildFinalScreen() {
       const allData = jsPsych.data.get().values();
       const participant_data = extractParticipantData(allData);
       const audioTrials = allData.filter(t =>
-        t.trial_type === 'audio-keyboard-response'
+        t.trial_type === 'html-button-response' && t.training === false
       );
 
       const csv = generateCSV(audioTrials, participant_data);
