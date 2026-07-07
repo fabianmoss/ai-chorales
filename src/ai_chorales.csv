@@ -1,0 +1,441 @@
+participant_id,timestamp,age,musical_experience,plays_instrument,sings_in_choir,uses_ai_weekly,confidence_before,confidence_after,difficulty,free_feedback,stimulus,response,correct,correct_response,rt,training
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/H/153.5-3.wav,x,m,FALSE,9871,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/H/256-5.wav,m,m,TRUE,7578,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/H/227.11-5.wav,m,m,TRUE,9041,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/H/122.6-4.wav,x,m,FALSE,9712,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/A/output48-2.wav,x,x,TRUE,8551,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/A/output28-2.wav,m,x,FALSE,12690,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/H/283-7.wav,x,m,FALSE,12771,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/A/output10-6.wav,x,x,TRUE,8501,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/H/244.15-6.wav,m,m,TRUE,8072,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/H/175.5-5.wav,x,m,FALSE,8449,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/A/output39-6.wav,m,x,FALSE,15229,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/A/output19-1.wav,x,x,TRUE,10040,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/H/148.6-6.wav,x,m,FALSE,13189,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/A/output31-5.wav,x,x,TRUE,13000,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/A/output21-1.wav,x,x,TRUE,13871,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/H/292-2.wav,m,m,TRUE,7651,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/A/output26-4.wav,m,x,FALSE,8559,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/H/276-8.wav,x,m,FALSE,9041,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/A/output3-3.wav,m,x,FALSE,10498,FALSE
+e5258291-adb0-4836-96ef-3b394e48b230,2026-05-13T13-35-31-230Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,"Ich kenne die Bachchoräle zwar nicht super gut, aber die Aufgabe ist glaube ich auch wenn man sie kennen würde sehr anspruchsvoll, da vergleichsweise kurze Ausschnitte gezeigt werden und man m.E. nach KI-Kompositionen an einer mangelnden ""großen Linie"" erkennen kann",data/A/output14-6.wav,x,x,TRUE,7541,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/H/283-7.wav,m,m,TRUE,8181,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/A/output39-6.wav,x,x,TRUE,3829,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/H/122.6-4.wav,m,m,TRUE,11949,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/A/output21-1.wav,m,x,FALSE,22280,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/A/output3-3.wav,x,x,TRUE,12051,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/H/292-2.wav,m,m,TRUE,8048,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/A/output48-2.wav,m,x,FALSE,7301,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/H/290-2.wav,m,m,TRUE,10688,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/A/output14-6.wav,m,x,FALSE,13021,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/H/256-5.wav,x,m,FALSE,10739,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/H/244.15-6.wav,x,m,FALSE,7240,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/H/276-8.wav,x,m,FALSE,9000,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/A/output16-1.wav,m,x,FALSE,8800,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/A/output26-4.wav,m,x,FALSE,9139,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/A/output19-1.wav,m,x,FALSE,8840,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/A/output10-6.wav,x,x,TRUE,14189,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/A/output28-2.wav,m,x,FALSE,13720,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/H/153.5-3.wav,x,m,FALSE,8560,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/H/175.5-5.wav,x,m,FALSE,7949,FALSE
+49e8cb9f-00a0-4469-b2e6-33b7c420825b,2026-05-13T13-45-02-945Z,18,sehr unerfahren,nein,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"sehr interessant, super",data/H/227.11-5.wav,m,m,TRUE,9701,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/H/175.5-5.wav,x,m,FALSE,7731,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/A/output10-6.wav,x,x,TRUE,4789,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/H/290-2.wav,x,m,FALSE,4120,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/H/283-7.wav,m,m,TRUE,2392,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/H/153.5-3.wav,m,m,TRUE,8549,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/H/256-5.wav,m,m,TRUE,5280,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/A/output39-6.wav,m,x,FALSE,5411,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/H/292-2.wav,x,m,FALSE,5651,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/H/244.15-6.wav,x,m,FALSE,6141,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/A/output28-2.wav,m,x,FALSE,12440,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/H/148.6-6.wav,m,m,TRUE,6019,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/A/output26-4.wav,x,x,TRUE,4469,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/A/output21-1.wav,m,x,FALSE,6101,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/A/output19-1.wav,x,x,TRUE,2480,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/H/122.6-4.wav,x,m,FALSE,6088,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/A/output48-2.wav,m,x,FALSE,1309,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/A/output31-5.wav,x,x,TRUE,469,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/H/227.11-5.wav,m,m,TRUE,912,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/A/output16-1.wav,m,x,FALSE,2299,FALSE
+fe0f99d8-d9a8-4eed-b1bc-7d638725aa63,2026-05-13T14-56-55-653Z,52,erfahren,ja,ja,ja,unsicher,sehr unsicher,sehr schwer,"Es war eine sehr interessante Erfahrung, weil ich gemerkt habe, wie verdammt schwer es für mich ist, KI-Kompositionen von menschlichen Kompositionen zu unterscheiden. ",data/A/output14-6.wav,m,x,FALSE,4939,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/H/244.15-6.wav,m,m,TRUE,3819,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/A/output3-3.wav,x,x,TRUE,6072,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/A/output28-2.wav,x,x,TRUE,5941,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/H/276-8.wav,m,m,TRUE,2829,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/H/148.6-6.wav,m,m,TRUE,11832,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/H/153.5-3.wav,x,m,FALSE,5509,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/H/290-2.wav,x,m,FALSE,4960,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/A/output48-2.wav,m,x,FALSE,4579,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/A/output31-5.wav,m,x,FALSE,6688,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/A/output39-6.wav,x,x,TRUE,8811,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/H/256-5.wav,m,m,TRUE,3869,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/A/output19-1.wav,x,x,TRUE,4280,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/H/292-2.wav,m,m,TRUE,4400,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/A/output14-6.wav,m,x,FALSE,7971,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/H/175.5-5.wav,x,m,FALSE,2739,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/H/122.6-4.wav,m,m,TRUE,7931,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/A/output16-1.wav,m,x,FALSE,7619,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/A/output21-1.wav,m,x,FALSE,6208,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/A/output26-4.wav,x,x,TRUE,2288,FALSE
+697ec336-fe2e-419f-8200-408a6bc1c7b2,2026-05-13T15-11-24-970Z,20,erfahren,ja,nein,ja,unsicher,unsicher,sehr schwer,Schwieriger als Gedacht bei vielen hatte ich wirklich keine Ahnung gutes Quiz ,data/H/283-7.wav,x,m,FALSE,7709,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/H/175.5-5.wav,m,m,TRUE,11611,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/A/output48-2.wav,x,x,TRUE,13400,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/H/276-8.wav,m,m,TRUE,12189,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/A/output3-3.wav,x,x,TRUE,18589,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/A/output39-6.wav,m,x,FALSE,27720,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/A/output14-6.wav,m,x,FALSE,7720,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/A/output31-5.wav,x,x,TRUE,7659,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/A/output28-2.wav,m,x,FALSE,10101,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/H/122.6-4.wav,x,m,FALSE,7480,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/H/283-7.wav,m,m,TRUE,11131,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/H/292-2.wav,m,m,TRUE,7739,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/H/227.11-5.wav,x,m,FALSE,11280,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/A/output10-6.wav,x,x,TRUE,9421,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/A/output26-4.wav,m,x,FALSE,5560,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/A/output19-1.wav,m,x,FALSE,5859,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/H/148.6-6.wav,m,m,TRUE,9749,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/H/153.5-3.wav,x,m,FALSE,9541,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/A/output21-1.wav,x,x,TRUE,8181,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/H/256-5.wav,x,m,FALSE,9840,FALSE
+94a11270-e293-4b08-acfc-a37f3732dfd6,2026-05-13T16-25-30-143Z,74,unerfahren,nein,nein,nein,sehr unsicher,unsicher,sehr schwer,sehr schwer,data/H/290-2.wav,m,m,TRUE,5179,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/A/output10-6.wav,x,x,TRUE,13981,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/H/290-2.wav,m,m,TRUE,5509,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/A/output31-5.wav,x,x,TRUE,25971,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/H/153.5-3.wav,m,m,TRUE,3728,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/H/283-7.wav,m,m,TRUE,4589,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/A/output39-6.wav,m,x,FALSE,5099,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/A/output28-2.wav,x,x,TRUE,20509,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/H/227.11-5.wav,m,m,TRUE,6789,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/A/output21-1.wav,m,x,FALSE,9909,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/A/output14-6.wav,m,x,FALSE,21531,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/H/256-5.wav,x,m,FALSE,5280,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/H/292-2.wav,x,m,FALSE,3059,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/H/175.5-5.wav,x,m,FALSE,9339,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/H/122.6-4.wav,m,m,TRUE,5669,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/A/output26-4.wav,m,x,FALSE,11040,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/H/276-8.wav,m,m,TRUE,7120,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/A/output48-2.wav,m,x,FALSE,4200,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/A/output3-3.wav,x,x,TRUE,6672,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/H/148.6-6.wav,m,m,TRUE,7061,FALSE
+b59bfe2a-f722-41cb-a61d-64f23e74ac7e,2026-05-13T17-18-49-975Z,20,unerfahren,ja,nein,nein,sehr unsicher,sehr unsicher,sehr schwer,"Es war enorm schwer einen Unterschied rauszuhören. Ich habe durchgehend geraten. Falls ich was richtig geraten haben sollte, war es lediglich mein Bauchgefühl. Sehr interessant und spannend!",data/A/output16-1.wav,x,x,TRUE,8669,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/H/290-2.wav,x,m,FALSE,22245,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/A/output31-5.wav,m,x,FALSE,8096,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/A/output48-2.wav,x,x,TRUE,13613,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/H/256-5.wav,x,m,FALSE,14325,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/H/227.11-5.wav,m,m,TRUE,6429,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/H/153.5-3.wav,m,m,TRUE,15912,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/H/244.15-6.wav,m,m,TRUE,11349,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/A/output14-6.wav,x,x,TRUE,15880,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/A/output16-1.wav,x,x,TRUE,8824,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/A/output10-6.wav,x,x,TRUE,5195,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/H/276-8.wav,m,m,TRUE,6557,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/H/148.6-6.wav,x,m,FALSE,21341,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/A/output39-6.wav,m,x,FALSE,7680,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/A/output19-1.wav,x,x,TRUE,7357,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/H/122.6-4.wav,m,m,TRUE,5448,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/A/output3-3.wav,x,x,TRUE,8520,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/A/output21-1.wav,m,x,FALSE,3379,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/H/283-7.wav,m,m,TRUE,10181,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/H/175.5-5.wav,x,m,FALSE,8965,FALSE
+38e4ff2e-76c8-4e46-a668-e695078224d6,2026-05-14T08-33-07-650Z,27,unerfahren,ja,nein,ja,unsicher,sehr unsicher,sehr schwer,Schwer,data/A/output26-4.wav,m,x,FALSE,6907,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/H/148.6-6.wav,m,m,TRUE,7584,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/H/276-8.wav,x,m,FALSE,3557,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/H/256-5.wav,m,m,TRUE,12683,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/A/output39-6.wav,m,x,FALSE,18435,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/A/output26-4.wav,x,x,TRUE,34392,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/A/output21-1.wav,x,x,TRUE,11253,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/A/output31-5.wav,x,x,TRUE,5789,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/A/output16-1.wav,m,x,FALSE,6837,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/H/290-2.wav,m,m,TRUE,7933,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/A/output28-2.wav,x,x,TRUE,4795,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/H/122.6-4.wav,x,m,FALSE,3907,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/A/output3-3.wav,x,x,TRUE,6005,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/H/227.11-5.wav,m,m,TRUE,7453,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/A/output48-2.wav,x,x,TRUE,3755,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/A/output14-6.wav,m,x,FALSE,6219,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/H/244.15-6.wav,m,m,TRUE,4653,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/A/output19-1.wav,x,x,TRUE,4304,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/H/153.5-3.wav,m,m,TRUE,6920,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/H/175.5-5.wav,x,m,FALSE,2395,FALSE
+5fe84d11-8f05-407d-914e-8c2670675b6a,2026-05-14T09-16-46-252Z,27,unerfahren,ja,nein,ja,sicher,sehr unsicher,sehr schwer,Gut,data/H/292-2.wav,m,m,TRUE,5581,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/A/output28-2.wav,m,x,FALSE,15731,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/H/227.11-5.wav,m,m,TRUE,10699,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/H/175.5-5.wav,x,m,FALSE,8808,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/H/290-2.wav,x,m,FALSE,9547,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/A/output48-2.wav,m,x,FALSE,10355,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/A/output31-5.wav,x,x,TRUE,12963,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/H/283-7.wav,m,m,TRUE,9512,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/H/244.15-6.wav,x,m,FALSE,7928,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/H/148.6-6.wav,m,m,TRUE,9859,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/A/output19-1.wav,x,x,TRUE,8912,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/A/output39-6.wav,x,x,TRUE,8816,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/A/output16-1.wav,m,x,FALSE,8723,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/H/256-5.wav,x,m,FALSE,9208,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/A/output26-4.wav,m,x,FALSE,7736,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/H/153.5-3.wav,m,m,TRUE,9328,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/A/output10-6.wav,x,x,TRUE,7352,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/H/122.6-4.wav,m,m,TRUE,10195,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/H/292-2.wav,m,m,TRUE,8368,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/A/output3-3.wav,x,x,TRUE,6619,FALSE
+bd968ff1-edcf-4bd3-930e-4bb8d52f1c65,2026-05-14T15-19-46-864Z,19,sehr erfahren,ja,ja,nein,sicher,unsicher,schwer,Ah,data/A/output14-6.wav,x,x,TRUE,8179,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/A/output10-6.wav,x,x,TRUE,14928,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/H/290-2.wav,m,m,TRUE,13066,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/H/244.15-6.wav,m,m,TRUE,8364,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/A/output21-1.wav,m,x,FALSE,18947,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/H/227.11-5.wav,x,m,FALSE,16568,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/A/output19-1.wav,m,x,FALSE,13086,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/H/283-7.wav,m,m,TRUE,31424,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/A/output3-3.wav,x,x,TRUE,8639,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/A/output39-6.wav,x,x,TRUE,8092,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/H/276-8.wav,x,m,FALSE,13645,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/H/292-2.wav,m,m,TRUE,6981,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/A/output26-4.wav,x,x,TRUE,9548,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/H/153.5-3.wav,m,m,TRUE,9247,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/H/175.5-5.wav,m,m,TRUE,35433,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/A/output28-2.wav,x,x,TRUE,8479,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/A/output48-2.wav,m,x,FALSE,10480,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/A/output14-6.wav,x,x,TRUE,5814,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/A/output31-5.wav,m,x,FALSE,9816,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/H/122.6-4.wav,m,m,TRUE,10947,FALSE
+7cabbdcb-77cd-4936-8bf8-503fe0fa7767,2026-05-16T08-20-03-936Z,21,unerfahren,nein,nein,nein,unsicher,unsicher,schwer,"okie
+",data/H/256-5.wav,x,m,FALSE,6082,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/H/153.5-3.wav,m,m,TRUE,45927,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/A/output14-6.wav,m,x,FALSE,143193,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/A/output19-1.wav,x,x,TRUE,12203,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/A/output21-1.wav,x,x,TRUE,13091,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/H/175.5-5.wav,m,m,TRUE,10132,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/H/290-2.wav,m,m,TRUE,10948,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/A/output26-4.wav,x,x,TRUE,11709,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/H/292-2.wav,x,m,FALSE,9730,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/H/276-8.wav,m,m,TRUE,11679,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/A/output10-6.wav,m,x,FALSE,12677,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/H/148.6-6.wav,x,m,FALSE,128624,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/H/283-7.wav,m,m,TRUE,27026,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/A/output16-1.wav,m,x,FALSE,10305,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/H/122.6-4.wav,m,m,TRUE,13677,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/A/output39-6.wav,x,x,TRUE,12258,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/H/256-5.wav,m,m,TRUE,11066,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/H/244.15-6.wav,x,m,FALSE,92621,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/A/output28-2.wav,x,x,TRUE,7710,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/A/output31-5.wav,x,x,TRUE,8597,FALSE
+79bd628f-9f0b-49f4-84c4-3b1466aa831f,2026-05-17T17-23-00-876Z,22,erfahren,ja,nein,ja,unsicher,unsicher,schwer,Hilfreich wäre es die Hörprobe 2 Mal abspielen zu können ,data/A/output3-3.wav,m,x,FALSE,5771,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/A/output14-6.wav,m,x,FALSE,784,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/A/output31-5.wav,m,x,FALSE,920,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/A/output28-2.wav,x,x,TRUE,15530,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/A/output16-1.wav,x,x,TRUE,14701,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/A/output19-1.wav,x,x,TRUE,15215,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/A/output26-4.wav,m,x,FALSE,13153,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/H/244.15-6.wav,x,m,FALSE,9780,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/H/276-8.wav,m,m,TRUE,11217,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/H/175.5-5.wav,x,m,FALSE,10159,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/H/283-7.wav,x,m,FALSE,15328,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/A/output10-6.wav,x,x,TRUE,45636,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/H/227.11-5.wav,m,m,TRUE,8037,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/H/153.5-3.wav,x,m,FALSE,11348,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/H/290-2.wav,m,m,TRUE,9560,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/H/122.6-4.wav,x,m,FALSE,11470,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/A/output21-1.wav,x,x,TRUE,10547,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/A/output3-3.wav,m,x,FALSE,12352,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/A/output48-2.wav,x,x,TRUE,6452,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/H/148.6-6.wav,m,m,TRUE,10897,FALSE
+65a4b228-6ebf-4160-bc06-b1fb17ce87b7,2026-05-18T07-38-08-915Z,19,erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,sehr schwer,Schwierig,data/H/256-5.wav,m,m,TRUE,11764,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/H/276-8.wav,x,m,FALSE,12996,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/H/122.6-4.wav,x,m,FALSE,13460,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/A/output19-1.wav,m,x,FALSE,11388,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/A/output14-6.wav,m,x,FALSE,9565,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/A/output16-1.wav,m,x,FALSE,14700,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/A/output28-2.wav,m,x,FALSE,15503,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/H/227.11-5.wav,m,m,TRUE,12345,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/H/290-2.wav,x,m,FALSE,10799,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/A/output10-6.wav,m,x,FALSE,10849,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/H/153.5-3.wav,m,m,TRUE,2431,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/H/148.6-6.wav,x,m,FALSE,12162,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/H/244.15-6.wav,x,m,FALSE,7249,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/A/output21-1.wav,m,x,FALSE,7665,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/H/283-7.wav,x,m,FALSE,8434,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/H/175.5-5.wav,x,m,FALSE,5894,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/H/292-2.wav,m,m,TRUE,9348,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/A/output3-3.wav,m,x,FALSE,6715,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/A/output39-6.wav,m,x,FALSE,10844,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/A/output48-2.wav,x,x,TRUE,7681,FALSE
+2f215ac8-4ecd-4bc8-b422-babea543b5ed,2026-05-18T13-47-53-446Z,21,unerfahren,nein,nein,ja,unsicher,unsicher,schwer,Erschreckend schwierig🫠,data/A/output26-4.wav,x,x,TRUE,11816,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer,,data/H/283-7.wav,x,m,FALSE,10313,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/H/290-2.wav,x,m,FALSE,20691,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/A/output28-2.wav,x,x,TRUE,16758,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/A/output48-2.wav,m,x,FALSE,21851,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/A/output39-6.wav,x,x,TRUE,26499,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/A/output14-6.wav,m,x,FALSE,9384,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/H/276-8.wav,x,m,FALSE,9874,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/A/output19-1.wav,x,x,TRUE,11259,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/A/output16-1.wav,m,x,FALSE,8703,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/A/output3-3.wav,m,x,FALSE,10814,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/A/output10-6.wav,m,x,FALSE,10237,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/H/292-2.wav,x,m,FALSE,9683,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/H/122.6-4.wav,x,m,FALSE,12230,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/A/output31-5.wav,m,x,FALSE,9869,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/H/227.11-5.wav,m,m,TRUE,9978,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/H/175.5-5.wav,x,m,FALSE,10703,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/H/244.15-6.wav,m,m,TRUE,8490,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/A/output26-4.wav,m,x,FALSE,10003,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/H/153.5-3.wav,m,m,TRUE,20185,FALSE
+e2c4c85c-0df4-4edc-8949-17fa86b8f4cd,2026-05-18T14-08-38-727Z,19,sehr erfahren,ja,ja,nein,sehr unsicher,sehr unsicher,schwer, ,data/H/148.6-6.wav,m,m,TRUE,9971,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/H/227.11-5.wav,m,m,TRUE,20876,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/A/output10-6.wav,x,x,TRUE,8684,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/A/output39-6.wav,m,x,FALSE,5028,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/H/292-2.wav,m,m,TRUE,10677,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/A/output48-2.wav,x,x,TRUE,10372,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/A/output26-4.wav,m,x,FALSE,8164,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/H/283-7.wav,m,m,TRUE,7382,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/H/290-2.wav,x,m,FALSE,8204,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/A/output16-1.wav,x,x,TRUE,11925,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/A/output19-1.wav,m,x,FALSE,9666,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/A/output3-3.wav,x,x,TRUE,6766,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/H/276-8.wav,x,m,FALSE,6471,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/A/output21-1.wav,m,x,FALSE,17038,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/H/256-5.wav,x,m,FALSE,1140,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/H/148.6-6.wav,m,m,TRUE,1281,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/H/153.5-3.wav,m,m,TRUE,1243,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/A/output14-6.wav,x,x,TRUE,1472,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/A/output31-5.wav,m,x,FALSE,2031,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/H/244.15-6.wav,m,m,TRUE,1308,FALSE
+5460e1ef-2ae5-4096-add9-3ebacc12e7c5,2026-05-19T08-14-12-592Z,80,sehr erfahren,ja,nein,ja,sehr unsicher,sehr unsicher,sehr schwer,"schwer
+super 
+lustig
+",data/H/175.5-5.wav,x,m,FALSE,1791,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/A/output21-1.wav,x,x,TRUE,58623,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/A/output10-6.wav,m,x,FALSE,12260,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/A/output14-6.wav,x,x,TRUE,11185,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/A/output28-2.wav,x,x,TRUE,45028,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/A/output16-1.wav,m,x,FALSE,5659,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/A/output31-5.wav,x,x,TRUE,12132,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/H/175.5-5.wav,x,m,FALSE,25199,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/H/292-2.wav,m,m,TRUE,8215,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/A/output19-1.wav,m,x,FALSE,10982,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/H/244.15-6.wav,x,m,FALSE,10236,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/H/256-5.wav,m,m,TRUE,8962,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/H/148.6-6.wav,m,m,TRUE,9724,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/H/290-2.wav,m,m,TRUE,9589,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/A/output26-4.wav,x,x,TRUE,10375,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/H/153.5-3.wav,x,m,FALSE,30367,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/H/227.11-5.wav,x,m,FALSE,41803,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/H/276-8.wav,m,m,TRUE,9612,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/A/output3-3.wav,m,x,FALSE,18041,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/A/output39-6.wav,m,x,FALSE,11683,FALSE
+cbeb54ec-0bf0-401f-8ca4-595814a6e497,2026-05-19T08-38-32-409Z,20,erfahren,ja,nein,ja,sehr unsicher,unsicher,schwer,"Mby ein anderes Instrument 
+",data/H/122.6-4.wav,x,m,FALSE,11427,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/H/227.11-5.wav,m,m,TRUE,14896,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/A/output31-5.wav,x,x,TRUE,11932,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/H/256-5.wav,x,m,FALSE,10297,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/H/244.15-6.wav,x,m,FALSE,9879,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/H/292-2.wav,x,m,FALSE,8865,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/A/output19-1.wav,m,x,FALSE,9899,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/H/175.5-5.wav,m,m,TRUE,9262,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/H/290-2.wav,m,m,TRUE,9698,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/A/output28-2.wav,x,x,TRUE,14817,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/A/output21-1.wav,x,x,TRUE,14478,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/A/output10-6.wav,x,x,TRUE,3450,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/A/output3-3.wav,m,x,FALSE,11830,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/H/283-7.wav,m,m,TRUE,12151,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/H/148.6-6.wav,m,m,TRUE,11531,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/H/276-8.wav,x,m,FALSE,10979,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/A/output48-2.wav,m,x,FALSE,10297,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/A/output39-6.wav,x,x,TRUE,9465,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/A/output16-1.wav,m,x,FALSE,10314,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/H/153.5-3.wav,m,m,TRUE,9915,FALSE
+9537b6d4-9e8d-4330-a559-5c07c2b3b869,2026-05-19T11-38-06-706Z,21,erfahren,ja,ja,nein,unsicher,unsicher,schwer,neee,data/A/output14-6.wav,m,x,FALSE,10965,FALSE
